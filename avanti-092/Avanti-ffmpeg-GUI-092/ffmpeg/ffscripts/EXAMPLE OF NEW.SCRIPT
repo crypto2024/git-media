@@ -1,0 +1,21 @@
+
+# Everything that follows the '#' character is considered
+# to be a comment and will be ignored at script parsing.
+# Do not remove the [USER_VIDEO_OPTIONS] section header.
+
+# Everything that starts with a '-' character must be a preserved
+# label (macro) that fills in basic settings during command line
+# composing or (should be) a valid FFmpeg user command.
+# Press <F1> for more details.
+
+[USER_VIDEO_OPTIONS]
+
+-new  # switch to disable automatic command line composing.
+
+-i "@source1"  # inserts path at "Source 1" field.
+
+-dvs  # inserts "Destination Video Settings" from main page.
+
+-das  # inserts "Destination Audio Settings" from main page.
+
+-y "@destin1"  # inserts path at "Destination" field.

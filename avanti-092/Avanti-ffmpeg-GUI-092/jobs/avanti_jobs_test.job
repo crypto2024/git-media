@@ -1,0 +1,21 @@
+[JOBPREFS]
+job_path=avanti_jobs_test.job
+job_total=9
+job_start=1
+job_cnt=9
+job_lvstart=0
+job_tpl_cnt=9
+job_mode=TEST
+job_last_tpl=
+job_last_dest=
+
+[#EVENT/#THIS/ID_JOBLIST]
+1	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=14}	NTSC/NTSC_DVSD_VIDEO	check
+2	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	PAL/PAL_H264_MP4_HQ	check
+3	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	PAL/PAL_DIVX_2_PASS_HQ	check
+4	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	PAL/PAL_MPEG2_PS_DVD	check
+5	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	UNI/UNI_DNxHD_1080i_50	check
+6	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	UNI/UNI_FLAC_AUDIO	check
+7	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	UNI/UNI_GSM_AUDIO	check
+8	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	UNI/UNI_FLASH_HQ	check
+9	|radio|1|$$env.avanti_path/avsystem/avanti-test-job.avi	{IL=g4c}{IC=16}	NTSC/NTSC_TO_IPOD_HR	check

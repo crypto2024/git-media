@@ -1,0 +1,218 @@
+[DIALOG_1]
+last_path=C:
+ftype= Supported FFmpeg files ...
+filter=//txt/mp2/mp3/avi/fli/mkv/flv/3gp/pva/amr/rmvb/ape/m2v/m2ts/mov/mxf/amv/mpeg/m4b/pss/mpa/mpv/aac/gif/avs/rec/swf/jpg/vdr/ogg/dvr-ms/png/ogm/wav/ac3/svx/alac/bmp/dts/flac/flc/h264/ivf/drc/gsm/ogv/aff/mdc/mm/m4a/mpc/mpg/pcx/png/ppm/ptx/ra/roq/rm/shn/smk/sun/tif/tta/wma/wmv/3g2/4xm/aea/aif/apc/asf/ssa/au/vid/c93/caf/crc/302/cin/dv/vob/dxa/ea/cdata/cpk/flx/gxf/tga/cgi/mve/mp4/m4v/nut/lml/mj2/mpl/mmf/mpa/mpv/m1v/divx/ts/mpj/mtv/mvi/nsv/nul/oma/psp/str/r3d/raw/vcl/rl2/rpl/s8/sdp/shn/sol/tph/seq/txd/vc1/vcd/vmd/voc/wc3/wsa/wsv/xa/y4m/anm/flm/webm/srt/ass/mxg/mts/ffmeta/tp/wtv/xm/s3m/mod/mtm/far/669/ult/it/ifo/iso/bdmv/bin/cue/
+view=list
+
+[#EVENT/#THIS/ID_SC_ALGO_0]
+#CURRENT 0
+Bicubic
+Bicublin
+Bilinear
+Fast_bilinear
+Gauss
+Lanczos
+Neighbor
+Spline
+Sinc
+Area
+Experimental
+
+[#EVENT/#THIS/ID_SC_ALGO_1]
+#CURRENT 0
+Bicubic
+Bilinear
+Blackman
+Gauss
+Lanczos
+Lanczos4
+Point
+Spline16
+Spline36
+Spline64
+
+[#EVENT/#THIS/ID_A_CODEC]
+#CURRENT 4
+Demux Audio
+Mux Audio
+Copy Audio
+MP2
+MP3
+AC3 - Fixed
+AC3 - Float
+AAC
+WMA-2
+PCM / WAV
+FLAC
+VORBIS
+GSM
+G.726
+
+[#EVENT/#THIS/ID_A_BITRATE]
+#CURRENT 7
+Source
+13
+32
+64
+80
+96
+112
+128
+192
+224
+256
+320
+448
+1536
+
+[#EVENT/#THIS/ID_A_SAMPLES]
+#CURRENT 5
+Source
+8000
+11025
+22050
+32000
+44100
+48000
+
+[#EVENT/#THIS/ID_A_CHANNELS]
+#CURRENT 2
+Source
+1
+2
+3
+6
+8
+
+[#EVENT/#THIS/ID_A_TRANS]
+#CURRENT 0
+Disabled
+P/N 23.976
+P/N 29.970 T
+P/N 29.970 B
+-------------------
+N/P 23.976
+N/P 23.980
+N/P 29.970 T
+N/P 29.970 B
+N/P Source
+-------------------
+F/N 23.976
+F/P 25.000
+N/F 24.000
+P/F 24.000
+
+[#EVENT/#THIS/ID_V_CODEC]
+#CURRENT 5
+Demux Video
+Mux Video
+Copy Video
+MPEG-1
+MPEG-2
+MPEG-4
+XVID
+H.264
+H.265
+WEBM
+FLASH
+3GP
+WMV-8
+DV (SD)
+DNxHD
+HUFFYUV
+THEORA
+
+[#EVENT/#THIS/ID_V_FRATE]
+#CURRENT 0
+Source
+15.000 fps
+23.976 fps
+24.000 fps
+25.000 fps
+29.970 fps
+30.000 fps
+
+[#EVENT/#THIS/ID_V_RATIO]
+#CURRENT 3
+Source
+4:3
+5:4
+16:9
+1.85:1
+
+[#EVENT/#THIS/ID_V_STREAM]
+#CURRENT 0
+Default
+ES
+PS
+mpg
+vob
+ts
+avi
+flv
+mkv
+mov
+ogm
+avi
+mp4
+m4v
+m2v
+
+[#EVENT/#THIS/ID_V_FOURCC]
+#CURRENT 1
+Default
+DIVX
+XVID
+mx5p
+xd5c
+
+[#EVENT/#THIS/ID_V_COLOR]
+#CURRENT 0
+Source
+rgb24
+yuv420p
+yuv422p
+yuv444p
+
+[#EVENT/#THIS/ID_V_SIZE]
+#CURRENT 0
+Source
+----------------
+ntsc-dvd
+720 x 480
+704 x 480
+352 x 480
+352 x 240
+----------------
+ntsc-vcd
+352 x 240
+----------------
+ntsc-svcd
+480x480
+----------------
+pal-dvd
+720 x 576
+704 x 576
+352 x 576
+352 x 288
+----------------
+pal-vcd
+352 x 288
+----------------
+pal-svcd
+480 x 576
+----------------
+hd-formats
+960 x 720
+1280 x 720
+1280 x 1080
+1440 x 1080
+1920 x 1080
+----------------
+640 x 480
+640 x 352
+640 x 272
+320 x 240
+----------------
+User
+176 x 144

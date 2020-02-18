@@ -1,0 +1,24 @@
+
+# Everything that follows the '#' character is considered
+# to be a comment and will be ignored at script parsing.
+# Do not remove the [USER_XXX_XXX] section headers.
+
+# Every FFmpeg user command addition must be preceeded with
+# the '-' character. Press <F1> for more details.
+
+[USER_SOURCE_PATHS]
+
+# Use "Insert Source" button to add extra source clips here. 
+
+[USER_VIDEO_OPTIONS]
+
+# Enter your extra FFmpeg VIDEO commands here.
+# These will be added to the "basic Video Settings"
+# as set on the main page.
+
+[USER_AUDIO_OPTIONS]
+
+# Enter your extra FFmpeg AUDIO commands here.
+# These will be added to the "basic Audio Settings"
+# as set on the main page.
+
