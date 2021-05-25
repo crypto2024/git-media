@@ -1,15 +1,6 @@
 ﻿<asx version = "3.0" >
 #if<CodePage==949>
 
-<!-- 이하 국내 교육/영어 방송 -->
-  <entry>
-    <title>MBC FM </title>
-    <ref href = "mms://210.105.237.100/mbcam"/>
-  </entry>
-  <entry>
-    <title>SBS PowerFM </title>
-    <ref href = "mms://114.108.140.39/magicfm_live"/>
-  </entry>
 <!-- 이하 국내 세이케스트/인라이브 클래식 방송 -->
   <entry>
     <title>국악관향 방송국 http://zen108.saycast.com</title>
@@ -98,10 +89,6 @@
     <ref href = "http://bcr.media.hinet.net/RA000018"/>
   </entry>
   <entry>
-    <title>중국 북경 고전음악 방송 Beijing Classical Music Radio 98.6 http://www.rbc.cn</title>
-    <ref href = "mms://alive.rbc.cn/cfm986"/>
-  </entry>
-  <entry>
     <title>슬로베키아 클래식 라디오 Radio Klasika Bratislava http://www.slovakradio.sk/radio-klasika</title>
     <ref href = "http://live.slovakradio.sk:8000/RSI_128.mp3"/>
   </entry>
@@ -158,14 +145,6 @@
     <ref href = "http://pubint.ic.llnwd.net/stream/pubint_wuwf2"/>
   </entry>
   <entry>
-    <title>미국 클래식 WUWF Public Radio Classic FM2 서버2</title>
-    <ref href = "mms://media.uwf.edu/wuwfhd"/>
-  </entry>
-  <entry>
-    <title>대만 클래식 Philharmonic Radio Taipei http://www.e-classical.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000018"/>
-  </entry>
-  <entry>
     <title>독일 클래식 Klassik Radio Channel (Hamburg,Classical) http://www.klassikradio.de</title>
     <ref href = "http://edge.live.mp3.mdn.newmedia.nacamar.net/klassikradio128/livestream.mp3.m3u"/>
   </entry>
@@ -184,10 +163,6 @@
  <entry>
     <title>핀란드 (고음질) 클래식 YLE Ylen Klassinen (Helsinki,Classical music) http://yle.fi/ylenklassinen</title>
     <ref href = "http://mediau.yle.fi/liveklassinen"/>
-  </entry>
- <entry>
-    <title>핀란드 (고음질) 클래식 Rondo FM (Helsinki,Classical music) http://www.rondofm.fi</title>
-    <ref href = "mms://mms.rondofm.fi/RondoHF"/>
   </entry>
   <entry>
     <title>노르웨이 (고음질) 클래식 NRK Klassisk (Oslo,Classical Music) 서버1 http://www.nrk.no</title>
@@ -212,10 +187,6 @@
   <entry>
     <title>영국 Classic FM 100.9㎒ http://www.classicfm.co.uk</title>
     <ref href = "http://media-ice.musicradio.com/ClassicFMMP3"/>
-  </entry>
-  <entry>
-    <title>영국 클래식 방송 BBC Radio3 91.3</title>
-    <ref href = "mms://wm-live.bbc.net.uk/wms/bbc_ami/radio3/radio3_bb_live_int_ep1_sl0?BBC-UID="/>
   </entry>
   <entry>
     <title>덴마크 DR Klassisk (Copenhagen,Classical music) http://www.dr.dk</title>
@@ -312,124 +283,15 @@
   </entry>
 <!-- 이하 시사/경제 -->
   <entry>
-    <title>라디오 서울 1650 서버1 http://www.radioseoul1650.com</title>
-    <ref href = "mms://74.114.48.148/radioseoul"/>
-  </entry>
-  <entry>
-    <title>라디오 서울 1650 서버2</title>
-    <ref href = "mms://74.114.48.149/radioseoul2"/>
-  </entry>
-  <entry>
     <title>한국경제 라디오 http://www.wownet.co.kr</title>
     <ref href = "http://www.wownet.co.kr/wowbox/gold/aod/wow_audio.asx"/>
-  </entry>
-  <entry>
-    <title>라디오21-실시간 뉴스, 논평, 음악, 시사토론 http://www.radio21.tv</title>
-    <ref href = "mms://radio21.nefficient.co.kr/golive"/>
   </entry>
 <!-- 이하 국내 종합 대형 방송국 -->
   <entry>
     <title>KFM 경기방송 99.9㎒ http://www.kfm.co.kr</title>
     <ref href = "http://61.78.39.187:8000"/>
   </entry>
-<!-- 국내 종합 대형 방송국중 지역 민방. 회원 로그인 필요하지 않는 경우만. -->
-  <entry>
-    <title>GTB(강원민방) Fresh FM 105.1㎒ http://www.igtb.co.kr</title>
-    <ref href = "mms://118.44.35.189/GTBLive3221"/>
-  </entry>
-  <entry>
-    <title>GTB(강원민방) TV http://www.igtb.co.kr</title>
-    <ref href = "mms://118.44.35.189/GTBLive824l"/>
-  </entry>
-  <entry>
-    <title>TJB(대전방송/고음질) Power FM 95.7㎒/96.5㎒ http://www.tjb.co.kr</title>
-    <ref href = "mms://59.26.124.114/TJB_FM_ONAIR"/>
-  </entry>
-  <entry>
-    <title>CJB(청주방송) Joy FM 101.5㎒ http://www.cjb.co.kr</title>
-    <ref href = "mms://media.cjb.kr/joyfm_live"/>
-  </entry>
-  <entry>
-    <title>UBC(울산방송) 그린 FM 92.3㎒ http://www.ubc.co.kr</title>
-    <ref href = "mms://218.146.252.65/live_FM"/>
-  </entry>
-  <entry>
-    <title>TBC(대구방송) 드림 FM 99.3㎒/99.7㎒/106.5㎒ http://www.tbc.co.kr</title>
-    <ref href = "mms://211.224.129.155/tbcemfIa_FM_dhsdpdj"/>
-  </entry>
-  <entry>
-    <title>JTV(전주방송) Magic FM 90.1㎒ http://www.jtv.co.kr</title>
-    <ref href = "mms://114.108.140.39/magicfm_live"/>
-  </entry>
-  <entry>
-    <title>KBC(광주방송) MY FM 101.1㎒/96.7㎒ http://www.ikbc.co.kr</title>
-    <ref href = "mms://211.224.129.155/kbc_fm"/>
-  </entry>
 <!-- 국내 종합 대형 방송국 중 MBC -->
-  <entry>
-    <title>MBC 표준 FM 95.9㎒ 서버1 http://www.imbc.com</title>
-    <ref href = "mms://liveradio.imbc.com/imbcsfm"/>
-  </entry>
-  <entry>
-    <title>MBC 표준 FM 95.9㎒ 서버2</title>
-    <ref href = "mms://live.imbc.com/imbcsfm"/>
-  </entry>
-  <entry>
-    <title>MBC FM 4U 91.9㎒ 서버1</title>
-    <ref href = "mms://liveradio.imbc.com/imbcmfm"/>
-  </entry>
-  <entry>
-    <title>MBC FM 4U 91.9㎒ 서버2</title>
-    <ref href = "mms://live.imbc.com/imbcmfm"/>
-  </entry>
- <entry>
-    <title>MBC (고음질) 삼척 표준 FM 삼척/동해 93.1㎒ 태백/정선 101.5㎒ http://www.scmbc.co.kr</title>
-    <ref href = "mms://121.189.151.7/sfm"/>
-  </entry>
- <entry>
-    <title>MBC (고음질) 삼척 FM4U 삼척/동해 99.9㎒ 태백/정선 98.1㎒</title>
-    <ref href = "mms://121.189.151.7/mfm"/>
-  </entry>
-  <entry>
-    <title>MBC 원주 표준 FM 92.7㎒/102.5㎒ AM 1242㎑  http://www.wjmbc.co.kr</title>
-    <ref href = "mms://live.wjmbc.co.kr/fm2"/>
-  </entry>
-  <entry>
-    <title>MBC 원주 음악 FM 98.9㎒</title>
-    <ref href = "mms://live.wjmbc.co.kr/fm989"/>
-  </entry>
- <entry>
-    <title>MBC 춘천 표준 FM 92.3㎒ AM 774㎑ http://www.chmbc.co.kr</title>
-    <ref href = "mms://222.113.53.4/chmbcam"/>
-  </entry>
- <entry>
-    <title>MBC 춘천 FM4U 음악 FM 94.5㎒</title>
-    <ref href = "mms://222.113.53.4/chmbcfm"/>
-  </entry>
-  <entry>
-    <title>MBC 강릉 표준 FM 96.3㎒ AM 1287㎑ http://www.gnmbc.co.kr</title>
-    <ref href = "mms://118.46.233.19/ams"/>
-  </entry>
-  <entry>
-    <title>MBC 강릉 FM4U 음악 FM 94.3㎒</title>
-    <ref href = "mms://118.46.233.19/fms"/>
-  </entry>
-  <entry>
-    <title>MBC 대전 표준 FM 92.5㎒ http://www.tjmbc.co.kr</title>
-    <ref href = "mms://VOD.tjmbc.co.kr/0becb_am"/>
-  </entry>
-  <entry>
-    <title>MBC 대전 FM4U 음악 97.5FM ㎒</title>
-    <ref href = "mms://VOD.tjmbc.co.kr/0becb_FM"/>
-  </entry>
- <entry>
-    <title>MBC (고음질) 청주 표준 FM 107.1㎒ AM 1287㎑ http://www.mbccj.co.kr</title>
-    <ref href = "mms://211.181.136.136/liveam"/>
-  </entry>
- <entry>
-    <title>MBC (고음질) 청주 FM4U 음악 FM 99.7㎒</title>
-    <ref href = "mms://211.181.136.136/livefm"/>
-  </entry>
  <entry>
     <title>MBC 충주 표준 FM 96.1㎒/94.1㎒/94.7㎒ AM 1332㎑ http://www.cjmbc.co.kr</title>
     <ref href = "http://vodstr.cjmbc.co.kr/LIVE/stfm.asx"/>
@@ -455,14 +317,6 @@
     <ref href = "http://vod1.dgmbc.com/fmlive"/>
   </entry>
   <entry>
-    <title>MBC 울산 표준 FM 97.5㎒ AM 846㎑ http://www.ulsanmbc.co.kr</title>
-    <ref href = "mms://onair.usmbc.co.kr/KKangAM"/>
-  </entry>
-  <entry>
-    <title>MBC 울산 음악 FM 98.7㎒</title>
-    <ref href = "mms://onair.usmbc.co.kr/KKangFM"/>
-  </entry>
-  <entry>
     <title>MBC 창원 표준 FM 98.9㎒ http://www.changwonmbc.co.kr</title>
     <ref href = "http://210.114.220.120/am"/>
   </entry>
@@ -471,20 +325,8 @@
     <ref href = "http://210.114.220.120/fm"/>
   </entry>
   <entry>
-    <title>MBC 안동 표준 FM 100.1㎒ AM 1017㎑ http://www.andongmbc.co.kr</title>
-    <ref href = "mms://mbclive.andong.com/am_live"/>
-  </entry>
-  <entry>
     <title>MBC 안동 FM 91.3㎒</title>
     <ref href = "http://mbclive.andong.com/fm_live"/>
-  </entry>
-  <entry>
-    <title>MBC 포항 표준 FM 100.7㎒/102.7㎒/울릉 98.5㎒ http://www.phmbc.co.kr</title>
-    <ref href = "mms://cast.phmbc.co.kr/AMLive"/>
-  </entry>
-  <entry>
-    <title>MBC 포항 FM4U 음악 FM 97.9㎒/94.9㎒/울릉 90.9㎒</title>
-    <ref href = "mms://cast.phmbc.co.kr/FMLive"/>
   </entry>
  <entry>
     <title>MBC 제주 표준 FM 97.9㎒ AM 774㎑/서귀포 97.1㎒/서부 106.5㎒ http://www.jejumbc.com</title>
@@ -494,121 +336,19 @@
     <title>MBC 제주 FM4U 음악 FM 90.1㎒/서귀포 102.9㎒</title>
     <ref href = "http://stream.jejumbc.com/jeju_fmonair"/>
   </entry>
-  <entry>
-    <title>MBC 전주 표준 FM 94.3/101.7㎒ AM 855 http://jmbc.co.kr</title>
-    <ref href = "mms://210.105.237.100/mbcam"/>
-  </entry>
-  <entry>
-    <title>MBC 전주 음악 FM 99.1㎒</title>
-    <ref href = "mms://210.105.237.100/mbcfm"/>
-  </entry>
-  <entry>
-    <title>MBC 여수 표준 FM 100.3㎒ AM 1080㎑ http://www.ysmbc.co.kr</title>
-    <ref href = "mms://vod.ysmbc.co.kr/YSAM"/>
-  </entry>
- <entry>
-    <title>MBC 여수 FM 98.3㎒</title>
-    <ref href = "mms://vod.ysmbc.co.kr/YSFM"/>
-  </entry>
-  <entry>
-    <title>MBC 광주 표준 FM 93.9㎒ AM 819㎑ http://www.kjmbc.co.kr</title>
-    <ref href = "mms://211.117.193.99/gwangjumbcamlive"/>
-  </entry>
-  <entry>
-    <title>MBC 광주 FM4U 음악 FM 91.5㎒</title>
-    <ref href = "mms://211.117.193.99/gwangjumbcfmlive"/>
-  </entry>
- <entry>
-    <title>MBC 목포 표준 FM 89.1㎒ AM 1386㎑ http://www.mokpombc.co.kr</title>
-    <ref href = "mms://vod.mokpombc.co.kr/encoder-am"/>
-  </entry>
- <entry>
-    <title>MBC 목포 FM4U 음악 FM 102.3㎒</title>
-    <ref href = "mms://vod.mokpombc.co.kr/encoder-fm"/>
-  </entry>
-<!-- 국내 종합 대형 방송국 중 KBS -->
-  <entry>
-    <title>KBS 원주 제1라디오 FM 97.1/95.5㎒ http://wonju.kbs.co.kr</title>
-    <ref href = "mms://221.159.194.205:8080"/>
-  </entry>
-  <entry>
-    <title>KBS 부산 제1라디오 FM 103.7㎒ AM 891 http://busan.kbs.co.kr</title>
-    <ref href = "mms://218.36.204.142:8080"/>
-  </entry>
-  <entry>
-    <title>KBS 부산 제2라디오 FM 97.1㎒</title>
-    <ref href = "mms://218.36.204.144:7500"/>
-  </entry>
-  <entry>
-    <title>KBS 진주 제1라디오 FM 90.3㎒ AM 1098㎑ http://jinju.kbs.co.kr</title>
-    <ref href = "mms://121.176.122.19:8080"/>
-  </entry>
-  <entry>
-    <title>KBS 광주 제1라디오 FM 90.5㎒ http://gwangju.kbs.co.kr</title>
-    <ref href = "mms://210.115.221.31/KJ1R"/>
-  </entry>
-  <entry>
-    <title>KBS 광주 제2라디오 FM 95.5㎒</title>
-    <ref href = "mms://210.115.221.31/KJ2R"/>
-  </entry>
-<!-- CBS 기독교 계열 방송사 (음악) -->
-  <entry>
-    <title>CBS 음악 FM 93.9㎒ 서버1 http://www.cbs.co.kr</title>
-    <ref href = "mms://widget.cbs.co.kr/cbs939_live"/>
-  </entry>
-  <entry>
-    <title>CBS 음악 FM 93.9㎒ 서버2</title>
-    <ref href = "mms://gswidget.cbs.co.kr/cbs939"/>
-  </entry>
-  <entry>
-    <title>CBS 부산 음악 FM 102.1㎒ http://www.bscbs.co.kr</title>
-    <ref href = "mms://media.biointernet.com/fm1021"/>
-  </entry>
 <!-- 국내 지역 방송국 -->
   <entry>
     <title>Radio G FM (서울 관악FM) 100.3㎒ http://www.radiogfm.net</title>
     <ref href = "http://onair.radiogfm.kr:8003"/>
   </entry>
   <entry>
-    <title>서울 마포 FM 100.7㎒ http://www.mapofm.net</title>
-    <ref href = "mms://media.mapofm.net:8000"/>
-  </entry>
-  <entry>
-    <title>성남시 분당 FM (고음질) 90.7㎒ http://www.fmnara.com</title>
-    <ref href = "mms://live.fmnara.com/fm"/>
-  </entry>
-  <entry>
     <title>SCN 대구 달서구 성서지역 공동체방송 FM 89.1㎒ http://www.scnfm.or.kr</title>
     <ref href = "http://onair.scnfm.or.kr:8009"/>
-  </entry>
-  <entry>
-    <title>영주 FM 89.1㎒ (경북 북부권 관광전문) http://www.yfm.co.kr</title>
-    <ref href = "mms://203.232.35.245/live"/>
-  </entry>
-  <entry>
-    <title>금강 FM 104.9㎒ (충남 공주지역) http://www.kkfm.co.kr</title>
-    <ref href = "mms://61.111.3.15/hshlive"/>
-  </entry>
-  <entry>
-    <title>광주 시민방송 (북구 지역) FM 88.9㎒ http://www.icbn.or.kr</title>
-    <ref href = "mms://icbn.getmyip.com:9000"/>
   </entry>
 <!-- 해외 한국 교민 방송 -->
   <entry>
     <title>VOA 미국의 소리 한국어 방송 9-12 PM / 4-6 AM (한반도 시간) http://www.voanews.com/korean/news/</title>
     <ref href = "http://www.voanews.com/wm/live/live-korean-a.asx"/>
-  </entry>
-  <entry>
-    <title>라디오 한국-미국 워싱턴주 시애틀 한인방송 http://www.radiohankook.com</title>
-    <ref href = "mms://75.145.16.209:8080"/>
-  </entry>
-  <entry>
-    <title>라디오 코리아-미국 LA 한인방송 http://www.radiokorea.com</title>
-    <ref href = "mms://38.106.61.57/live"/>
-  </entry>
-  <entry>
-    <title>(고음질 한인 방송) KRB 뉴욕 라디오 코리아 AM1660 http://www.nyradiokorea.com</title>
-    <ref href = "mms://krblive.com/radiokorea"/>
   </entry>
   <entry>
     <title>샌디에고 라디오 코리아-한인 방송 http://sdradiokorea.com</title>
@@ -684,10 +424,6 @@
     <title>스위스 모던 재즈 Swiss Radio Modern Jazz 서버3</title>
     <ref href = "http://stream3140.init7.net:80"/>
   </entry>
-  <entry>
-    <title>고음질 대만 재즈 Taiwan Sunny Radio 太陽廣播電台 - 89.1 FM (Taipei - Taiwan) http://www.sunny891.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000064"/>
-  </entry>
 <!-- 이하 20/30대 인터넷 음악 방송 -->
   <entry>
     <title>M4UCAST 엠포유 서버1 홈: http://m4ucast.co.kr 스튜디오: http://m4u.saycast.com</title>
@@ -759,40 +495,10 @@
     <title>임팩트 방송국 http://sjs4032.saycast.com</title>
     <ref href = "http://sjs4032.saycast.com"/>
   </entry>
-<!-- 국군 FM -->
-  <entry>
-    <title>국군 FM 96.7㎒ http://www.dema.mil.kr</title>
-    <ref href = "mms://128.134.37.102/onair"/>
-  </entry>
 <!-- 이하 종교 -->
-  <entry>
-    <title>BBS (고음질) 대구 불교방송 FM 94.5㎒/포항 FM 105.5㎒/안동 FM 97.7㎒ http://www.dgbbs.co.kr</title>
-    <ref href = "mms://bbs5114.codns.com/dgbbslive"/>
-  </entry>
-  <entry>
-    <title>BBS 서울 불교방송 FM 101.9㎒ http://www.bbsi.co.kr</title>
-    <ref href = "mms://bbslive.nefficient.co.kr/bbsfm"/>
-  </entry>
-  <entry>
-    <title>BBS 부산 불교방송 FM 89.9㎒ /창원,마산,진해 89.5㎒ http://www.bbsradio.co.kr</title>
-    <ref href = "mms://218.146.253.176/bbsradiolive"/>
-  </entry>
    <entry>
     <title>BBS 춘천 불교방송 FM 100.1㎒ http://www.chbbs.co.kr</title>
     <ref href = "http://hlqm.inlive.co.kr/listen.pls"/>
-  </entry>
-<!-- 이하 지방 불교 방송 라디오 주소는 서울과 같음. -->
-   <entry>
-    <title>BBS 광주 불교방송 FM 89.7㎒ http://kjbbs.co.kr</title>
-    <ref href = "mms://bbslive.nefficient.co.kr/bbsfm"/>
-  </entry>
-   <entry>
-    <title>BBS 울산 불교방송 FM 105.3㎒ http://www.usbbs.co.kr</title>
-    <ref href = "mms://bbslive.nefficient.co.kr/bbsfm"/>
-  </entry>
-   <entry>
-    <title>BBS 청주 불교방송 FM 96.7㎒ http://www.cjbbs.co.kr</title>
-    <ref href = "mms://bbslive.nefficient.co.kr/bbsfm"/>
   </entry>
 <!-- 이하 세이캐스트 불교 방송 -->
   <entry>
@@ -823,92 +529,10 @@
     <title>부처님의 향기 방송국 http://budamam.saycast.com</title>
     <ref href = "http://budamam.saycast.com"/>
   </entry>
-<!-- 원불교 -->
-  <entry>
-    <title>WBS 원불교 서울,경기 원음방송 FM 89.7㎒ http://www.wbsfm.com</title>
-    <ref href = "mms://aod.wbsfm.com/wbs897"/>
-  </entry>
-  <entry>
-    <title>WBS 원불교 부산 원음방송 FM 104.9㎒</title>
-    <ref href = "mms://aod.wbsfm.com/wbs1049"/>
-  </entry>
-  <entry>
-    <title>WBS 원불교 전북 원음방송 WBS FM 97.9㎒</title>
-    <ref href = "mms://aod.wbsfm.com/wbs979"/>
-  </entry>
-  <entry>
-    <title>WBS 원불교 광주 원음방송 FM 107.9㎒</title>
-    <ref href = "mms://aod.wbsfm.com/wbs1079"/>
-  </entry>
-<!-- 천주교 -->
-  <entry>
-    <title>PBC FM 천주교 서울 평화방송 FM 105.3㎒ http://www.pbc.co.kr</title>
-    <ref href = "mms://203.229.58.150/fmlive"/>
-  </entry>
-  <entry>
-    <title>PBC FM 천주교 대구 평화방송 FM 93.1㎒/포항96.9㎒ http://www.dgpbc.co.kr</title>
-    <ref href = "mms://61.106.58.10:1088"/>
-  </entry>
-  <entry>
-    <title>PBC FM 천주교 부산 평화방송 FM 101.1㎒/울산 94.3㎒ http://www.pbcbs.co.kr</title>
-    <ref href = "mms://218.146.255.6/Busan%20PBC%20Live"/>
-  </entry>
-  <entry>
-    <title>PBC FM 천주교 대전 평화방송 FM 106.3㎒ http://www.djpbc.co.kr</title>
-    <ref href = "mms://junsan52.cafe24.com/junsan52_live"/>
-  </entry>
-  <entry>
-    <title>PBC FM 천주교 광주 평화방송 FM 99.9㎒/여수 99.5㎒ http://www.kjpbc.com</title>
-    <ref href = "mms://183.105.65.21/onair"/>
-  </entry>
 <!-- CBS 기독교 계열 방송사 (뉴스, 음악) -->
-  <entry>
-    <title>CBS 표준 FM 98.1㎒ 서버1 http://www.cbs.co.kr</title>
-    <ref href = "mms://widget.cbs.co.kr/cbs981_live"/>
-  </entry>
-  <entry>
-    <title>CBS 표준 FM 98.1㎒ 서버2</title>
-    <ref href = "mms://gswidget.cbs.co.kr/cbs981"/>
-  </entry>
-  <entry>
-    <title>CBS 대전 표준 FM 91.7㎒ http://www.djcbs.co.kr</title>
-    <ref href = "mms://210.91.227.146:8080"/>
-  </entry>
-  <entry>
-    <title>CBS 청주 표준 FM 91.5㎒ http://cj.local.cbs.co.kr</title>
-    <ref href = "mms://222.116.93.208:7080"/>
-  </entry>
-  <entry>
-    <title>CBS 대구 표준 FM 103.1㎒ http://www.dgcbs.co.kr</title>
-    <ref href = "mms://121.181.252.130:8080/"/>
-  </entry>
-  <entry>
-    <title>CBS 포항 표준 FM 91.5㎒ http://www.phcbs.co.kr</title>
-    <ref href = "mms://59.24.49.132:4368"/>
-  </entry>
-  <entry>
-    <title>CBS (고음질) 부산 표준 FM 102.9㎒ http://www.bscbs.co.kr</title>
-    <ref href = "mms://media.biointernet.com/fm1029"/>
-  </entry>
   <entry>
     <title>CBS 경남 표준 FM 106.9㎒ http://www.gncbs.co.kr</title>
     <ref href = "http://121.146.93.239:9900"/>
-  </entry>
-  <entry>
-    <title>CBS 전북 표준 FM 103.7㎒ http://www.jbcbs.co.kr</title>
-    <ref href = "mms://211.116.122.4:8080"/>
-  </entry>
-  <entry>
-    <title>CBS 광주 표준 FM 103.1㎒ http://www.gjcbs.co.kr</title>
-    <ref href = "mms://112.173.165.6/radio/radio_live.wma"/>
-  </entry>
-  <entry>
-    <title>CBS 전남(순천) FM 102.1㎒ http://www.jncbs.co.kr</title>
-    <ref href = "mms://222.233.223.196/jncbs_broadcast_audio"/>
-  </entry>
-  <entry>
-    <title>CBS 제주 FM 93.3㎒/서귀포 90.9㎒ http://jj.local.cbs.co.kr</title>
-    <ref href = "mms://vod.cbs.co.kr/jjcbs"/>
   </entry>
 <!-- 이하 프랑스/모나코 방송 -->
   <entry>
@@ -1134,10 +758,6 @@
   <entry>
     <title>스위스 (독어) DRS 4 News 서버2 (Basel,News/Information)</title>
     <ref href = "http://dms-cl-021.skypro-media.net/drs4-128"/>
-  </entry>
-  <entry>
-    <title>스위스 (독어) DRS 4 News 서버3 (Basel,News/Information)</title>
-    <ref href = "mms://dms-cl-021.skypro-media.net/drs4-128"/>
   </entry>
   <entry>
     <title>스위스 (이탈리아어) RSI Rete Uno (Lugano,News/information/entertainment) 서버1 http://reteuno.rsi.ch</title>
@@ -1438,10 +1058,6 @@
     <ref href = "http://http-live.sr.se/p4vastmanland-aac-96"/>
   </entry>
  <entry>
-    <title>스웨덴 (고음질) Dansbandskanalen (Stockholm,Swedish music) http://dansbandskanalen.se</title>
-    <ref href = "mms://streamer2.xmc.se/Dansbandskanalen"/>
-  </entry>
- <entry>
     <title>핀란드 (스웨덴어,고음질) YLE Vega (문화,시사,음악) http://svenska.yle.fi/vega/</title>
     <ref href = "http://mediau.yle.fi/a_vegaost"/>
   </entry>
@@ -1524,10 +1140,6 @@
     <ref href = "http://50.7.243.50:8137"/>
   </entry>
  <entry>
-    <title>크로아티아 (일반음질) Radio Koprivnica 서버2 (Koprivnica,Local service)</title>
-    <ref href = "mms://media2.t-com.hr/rkc128"/>
-  </entry>
- <entry>
     <title>마케도니아 (고음질,마케도니아語) Antenna 5 Love (Skopje,Love songs) http://www.antenna5.com.mk/</title>
     <ref href = "http://217.16.69.17:8000/lovehits.mp3.m3u"/>
   </entry>
@@ -1565,18 +1177,6 @@
     <ref href = "http://wm.as34763.net/dearnefm"/>
   </entry>
   <entry>
-    <title>영국 BBC Radio 4 (BBC R4) - 93.5㎒ FM 뉴스 토크 채널</title>
-    <ref href = "mms://wm-live.bbc.net.uk/wms/bbc_ami/radio4/radio4_bb_live_int_ep1_sl0?BBC-UID="/>
-  </entry>
-  <entry>
-    <title>영국 BBC Radio 4 Extra (BBC R4Ex) - Comedy and drama </title>
-    <ref href = "mms://wm-live.bbc.net.uk/wms/bbc_ami/radio4/radio4xtra_bb_live_int_ep1_sl0?BBC-UID="/>
-  </entry>
-  <entry>
-    <title>영국 BBC Radio 5 live (BBC R5L) - 909 AM 뉴스 토크 채널 스포츠 토론</title>
-    <ref href = "mms://wm-live.bbc.net.uk/wms/bbc_ami/radio5/radio5_bb_live_int_ep1_sl0?BBC-UID="/>
-  </entry>
-  <entry>
     <title>영국 LBC FM 97.3㎒ http://www.lbc.co.uk/</title>
     <ref href = "http://mediaweb.musicradio.com/Show.asx?StreamID=156"/>
   </entry>
@@ -1608,10 +1208,6 @@
   <entry>
     <title>영국 1287AM Insanity [Royal Holloway, University of London] 서버2</title>
     <ref href = "http://insanityradio.com:8000/live-192.mp3"/>
-  </entry>
-  <entry>
-    <title>영국 (고음질) Bay Radio [University of Wales, Aberystwyth] http://www.bay-radio.co.uk</title>
-    <ref href = "mms://streaming.bay-radio.co.uk/bay_radio"/>
   </entry>
   <entry>
     <title>영국 Fresh Air-Edinburgh's student-run radio station. http://www.freshair.org.uk</title>
@@ -1791,10 +1387,6 @@
     <ref href = "http://pubint.ic.llnwd.net/stream/pubint_wuwf1"/>
   </entry>
   <entry>
-    <title>미국 WUWF Public Radio FM1 서버2</title>
-    <ref href = "mms://media.uwf.edu/wuwf"/>
-  </entry>
-  <entry>
     <title>뉴질랜드 Radio New Zealand National (Wellington, New Zealand) http://www.radionz.co.nz</title>
     <ref href = "http://www.radionz.co.nz/audio/live/national/adaptive.asx"/>
   </entry>
@@ -1848,16 +1440,8 @@
     <ref href = "http://wms.shibapon.net/BananaFM"/>
   </entry>
   <entry>
-    <title>일본(關東) FMおだわら78.7㎒ (Odawara) 서버1 http://fm-odawara.com</title>
-    <ref href = "mms://simul.freebit.net/fmodawara"/>
-  </entry>
-  <entry>
     <title>일본(關東) FMおだわら78.7㎒ (Odawara) 서버2</title>
     <ref href = "http://simul.freebit.net:8310/fmodawara"/>
-  </entry>
-  <entry>
-    <title>일본(關東) (고음질) 湘南ビーチFM 78.9 (쇼난 비취 FM) 서버1 http://www.beachfm.co.jp</title>
-    <ref href = "mms://simul.freebit.net/shonanbeachfma"/>
   </entry>
   <entry>
     <title>일본(關東) (고음질) 湘南ビーチFM 78.9 (쇼난 비취 FM) 서버2</title>
@@ -1900,16 +1484,8 @@
     <ref href = "http://wms.shibapon.net/Fm21inOkinawa"/>
   </entry>
   <entry>
-    <title>일본(信越) FM 輕井澤(Karuizawa) 서버1 http://www.fm-karuizawa.co.jp</title>
-    <ref href = "mms://simul.freebit.net/fmkaruizawa"/>
-  </entry>
-  <entry>
     <title>일본(信越) FM 輕井澤(Karuizawa) 서버2</title>
     <ref href = "http://simul.freebit.net:8310/fmkaruizawa"/>
-  </entry>
-  <entry>
-    <title>일본 北海道 エフエムしろいし FM Shiroishi With-S 830 http://www.830.fm</title>
-    <ref href = "mms://016.mediaimage.jp/with-s"/>
   </entry>
 
 <!-- 이하 홍콩,중국,대만 -->
@@ -1938,127 +1514,8 @@
     <ref href = "http://www.rthk.org.hk/live6.asx"/>
   </entry>
   <entry>
-    <title>대만 News 98 FM Radio 98.1 http://www.news98.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000073"/>
-  </entry>
-  <entry>
-    <title>BCC News Radio Taipei (Taipei - Taiwan) http://www.bcc.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000008"/>
-  </entry>
-  <entry>
-    <title>BCC FM 103 Taipei	(Taipei - Taiwan) http://www.bcc.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000009"/>
-  </entry>
-  <entry>
-    <title>BCC Radio FM96 (Taipei - Taiwan) http://www.bcc.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000007"/>
-  </entry>
-  <entry>
-    <title>대만 음악 FM Fly Radio 89.5 http://www.flyradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000019"/>
-  </entry>
-  <entry>
-    <title>대만 음악 FM Best Radio 93.5 FM (Hualien - Taiwan) http://www.bestradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000011"/>
-  </entry>
-  <entry>
-    <title>대만 음악 FM 全國廣播音樂網-Mradio (Taipei - Taiwan) www.mradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000047"/>
-  </entry>
-  <entry>
-    <title>대만 UNI FM96.7 http://uni967.blogspot.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000020"/>
-  </entry>
-  <entry>
-    <title>대만 DaQian Radio FM 99.1 (Taipei - Taiwan) http://www.superfm99-1.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000067"/>
-  </entry>
-  <entry>
-    <title>대만 녹색평화방송 Green Peace Broadcasting Station 97.3 http://www.greenpeace.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000032"/>
-  </entry>
-  <entry>
-    <title>대만 Asia FM 92.7 http://www.asiafm.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000003"/>
-  </entry>
-  <entry>
     <title>대만 음악 FM POP Radio FM91.7 http://www.pop917.com</title>
     <ref href = "http://bcr.media.hinet.net/RA000080"/>
-  </entry>
-  <entry>
-    <title>대만 음악 FM Bravo FM Radio 91.3 http://www.bravo913.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000081"/>
-  </entry>
-  <entry>
-    <title>대만 Super FM 98.5 Music Radio http://www.superfm98-5.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000066"/>
-  </entry>
-  <entry>
-    <title>대만 Best Radio 98.9 http://www.bestradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000013"/>
-  </entry>
-  <entry>
-    <title>대만 타이페이 Hit FM 107.7 http://www.hitoradio.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000036"/>
-  </entry>
-  <entry>
-    <title>대만 Kiss Radio Taiwan 99.9 http://www.kiss.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000040"/>
-  </entry>
-  <entry>
-    <title>대만 Kiss Radio Taiwan 98.3 http://www.kiss.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000041"/>
-  </entry>
-  <entry>
-    <title>대만 RTI News-Radio Taiwan International http://news.rti.org.tw</title>
-    <ref href = "mms://media.ccdntech.com/wmtencoder/rti/cbs2.wmv"/>
-  </entry>
-  <entry>
-    <title>대만 Apple Line 98.9 http://www.apple-line.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000001"/>
-  </entry>
-  <entry>
-    <title>중국 (고음질) Hainan News Radio 88.6 http://channel.bluehn.com/xwgb/</title>
-    <ref href = "mms://03vl.sina.com.cn/radio_hunan_fm886"/>
-  </entry>
-  <entry>
-    <title>중국 북경 Beijing Music Radio 97.4 http://fm974.rbc.cn</title>
-    <ref href = "mms://alive.rbc.cn/FM974/audio"/>
-  </entry>
-  <entry>
-    <title>중국 Xiamen Music Radio 90.9 (Xiamen, Fujian) http://www.fm909.com.cn</title>
-    <ref href = "mms://mediasrv1.iptv.xmg.com.cn/yinyue"/>
-  </entry>
-  <entry>
-    <title>중국 (고음질) Fujian News Radio 103.6 (Fuzhou, Fujian) http://www.fjgb.com</title>
-    <ref href = "mms://video.fjtv.net/xwzhgb"/>
-  </entry>
-  <entry>
-    <title>중국 톈진 음악 방송 Tianjin Nice Radio 99.0 http://yinyue.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live2"/>
-  </entry>
-  <entry>
-    <title>중국 톈진 소설(문학) 방송 Tianjin Novel Radio http://xiaoshuo.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live8"/>
-  </entry>
-  <entry>
-    <title>중국 톈진 예술 방송 Tianjin Art Radio 104.6 http://wenyi.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live4"/>
-  </entry>
-  <entry>
-    <title>중국 Xiamen Traffic and Finance Radio 107.0 (Xiamen, Fujian) http://www.fm107.com.cn</title>
-    <ref href = "mms://mediasrv1.iptv.xmg.com.cn/jingji"/>
-  </entry>
-  <entry>
-    <title>중국 북경 Beijing News Radio 100.6 http://www.am828.com.cn</title>
-    <ref href = "mms://alive.rbc.cn/fm1006"/>
-  </entry>
-    <title>중국 북경 문학 방송 Beijing Literature Radio 104.3 http://www.rbc.cn</title>
-    <ref href = "mms://alive.bjradio.com.cn/cfm1043"/>
-  </entry>
-  </entry>
-    <title>중국 북경 교육 방송 Beijing Teaching Radio 99.4 http://www.rbc.cn</title>
-    <ref href = "mms://alive.rbc.cn/cfm994"/>
   </entry>
   
 #else
@@ -2067,113 +1524,10 @@
     <title>Radio Monaco (Monaco,Music/Features/Culture) http://www.radio-monaco.com</title>
     <ref href = "http://mp3.live.tv-radio.com/mcone/all/mcone-128k.mp3"/>
   </entry>
-   <entry>
-    <title>FM Fly Radio 89.5 http://www.flyradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000019"/>
-  </entry>
-  <entry>
-    <title>FM Best Radio 93.5 FM (Hualien - Taiwan) http://www.bestradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000011"/>
-  </entry>
-  <entry>
-    <title>FM 全國廣播音樂網-Mradio (Taipei - Taiwan) www.mradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000047"/>
-  </entry>
-  <entry>
-    <title>UNI FM96.7 http://uni967.blogspot.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000020"/>
-  </entry>
-  <entry>
-    <title>DaQian Radio FM 99.1 (Taipei - Taiwan) http://www.superfm99-1.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000067"/>
-  </entry>
-  <entry>
-    <title>Green Peace Broadcasting Station 97.3 http://www.greenpeace.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000032"/>
-  </entry>
-  <entry>
-    <title>Asia FM 92.7 http://www.asiafm.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000003"/>
-  </entry>
   <entry>
     <title>FM POP Radio FM91.7 http://www.pop917.com</title>
     <ref href = "http://bcr.media.hinet.net/RA000080"/>
   </entry>
-  <entry>
-    <title>FM Bravo FM Radio 91.3 http://www.bravo913.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000081"/>
-  </entry>
-  <entry>
-    <title>Super FM 98.5 Music Radio http://www.superfm98-5.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000066"/>
-  </entry>
-  <entry>
-    <title>Best Radio 98.9 http://www.bestradio.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000013"/>
-  </entry>
-  <entry>
-    <title>Hit FM 107.7 http://www.hitoradio.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000036"/>
-  </entry>
-  <entry>
-    <title>Kiss Radio Taiwan 99.9 http://www.kiss.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000040"/>
-  </entry>
-  <entry>
-    <title>Kiss Radio Taiwan 98.3 http://www.kiss.com.tw</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000041"/>
-  </entry>
-  <entry>
-    <title>RTI News-Radio Taiwan International http://news.rti.org.tw</title>
-    <ref href = "mms://media.ccdntech.com/wmtencoder/rti/cbs2.wmv"/>
-  </entry>
-  <entry>
-    <title>Apple Line 98.9 http://www.apple-line.com</title>
-    <ref href = "mms://bcr.media.hinet.net/RA000001"/>
-  </entry>
-  <entry>
-    <title>Hainan News Radio 88.6 http://channel.bluehn.com/xwgb/</title>
-    <ref href = "mms://03vl.sina.com.cn/radio_hunan_fm886"/>
-  </entry>
-  <entry>
-    <title>Beijing Music Radio 97.4 http://fm974.rbc.cn</title>
-    <ref href = "mms://alive.rbc.cn/FM974/audio"/>
-  </entry>
-  <entry>
-    <title>Xiamen Music Radio 90.9 (Xiamen, Fujian) http://www.fm909.com.cn</title>
-    <ref href = "mms://mediasrv1.iptv.xmg.com.cn/yinyue"/>
-  </entry>
-  <entry>
-    <title>Fujian News Radio 103.6 (Fuzhou, Fujian) http://www.fjgb.com</title>
-    <ref href = "mms://video.fjtv.net/xwzhgb"/>
-  </entry>
-  <entry>
-    <title>Tianjin Nice Radio 99.0 http://yinyue.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live2"/>
-  </entry>
-  <entry>
-    <title>Tianjin Novel Radio http://xiaoshuo.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live8"/>
-  </entry>
-  <entry>
-    <title>Tianjin Art Radio 104.6 http://wenyi.radiotj.com</title>
-    <ref href = "mms://218.69.250.8/live4"/>
-  </entry>
-  <entry>
-    <title>Xiamen Traffic and Finance Radio 107.0 (Xiamen, Fujian) http://www.fm107.com.cn</title>
-    <ref href = "mms://mediasrv1.iptv.xmg.com.cn/jingji"/>
-  </entry>
-  <entry>
-    <title>Beijing News Radio 100.6 http://www.am828.com.cn</title>
-    <ref href = "mms://alive.rbc.cn/fm1006"/>
-  </entry>
-    <title>Beijing Literature Radio 104.3 http://www.rbc.cn</title>
-    <ref href = "mms://alive.bjradio.com.cn/cfm1043"/>
-  </entry>
-  </entry>
-    <title>Beijing Teaching Radio 99.4 http://www.rbc.cn</title>
-    <ref href = "mms://alive.rbc.cn/cfm994"/>
-  </entry>	
 
 #endif
 </asx>

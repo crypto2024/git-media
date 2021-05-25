@@ -2,80 +2,401 @@
 PotPlayer verzióelőzmények
 
 ----------------------------------------------------------
+[210127]
+----------------------------------------------------------
+* Flash lejátszási funkció eltávolítva
+* Kedvenc csatornák adás indítás értesítési funkciója eltávolítva
+
++ Holland nyelv hozzáadva
++ Új felszín megjelenítés használati képesség a windows média képi megjelenítőben
++ AV1 DXVA lejátszási képesség
+
+- Javítva egy probléma, amely hibát okozott bizonyos MKV videók zökkenőmentesen lejátszásakor
+- Javítva lett az időeltolódás rendellenes működéséért felelős hiba
+- Javítva lett egy hiba, amely miatt nem volt hang, amikor a rendszer hangmintavételi frekvenciája 192 kHz-nél nagyobb volt
+- Javítva egy probléma, amely miatt a képminőséget nem lehetett állítani egy jelszóval védett adás nézésekor
+- Javítva lett egy hiba, amely bizonyos helyzetekben jelentkezett a könyvjelző szerkesztésekor
+- Javítva egy hiba, amely miatt az SMI integrált feliratokat nem lehetett kiválasztani
+
+----------------------------------------------------------
+[201209]
+----------------------------------------------------------
++ Új helyi menü testreszabási lehetőség
++ Új AV1 kódek támogatás a CUDA/QuickSync videó dekóderben
++ Új képpontárnyékoló beállítások lap a beállításokban
++ Új helyi menüelem megtekintési lehetőség azok felszín CmdID-jével
+
+- Javítva egy probléma, amely hibát okozott egy könyvjelző törlésénél a könyvjelzőszerkesztőben
+- Javított egyéni menü kimeneti sebesség
+- Néhány javítás, hogy a program gyorsabban fusson indításkor
+- Javítva egy probléma, amely miatt nem volt hang néhány mkv fájl lejátszása során
+
+----------------------------------------------------------
+[201021]
+----------------------------------------------------------
++ Új csoportos szerkesztési idő képesség a könyvjelző szerkesztésben
+
+- Javítva egy probléma, amely miatt szín rendellenesség jelentkezett a HDR HLG videó lejátszásakor
+- Javítva egy probléma, amely miatt a videórögzítési képernyő rendellenesség jelentkezett a 10 bites kimenet használatakor
+- Javítva egy probléma, amely miatt a CPU-használat mértéke magas volt a LayeredWindow felszín használatakor
+- Javítva egy probléma, amely miatt a rendszer egy adott MKV-fájl lejátszásakor 0-ként ismerte fel a teljes időt
+- Javítva egy probléma, amely miatt a könyvjelzők bizonyos helyzetekben másolatot készítettek a könyvjelzők törlésekor
+- A sortörések lehető legnagyobb mértékű javítása a feliratok fordításakor
+- Javítva lett egy probléma, amely miatt bizonyos ASS/SSA felirat kimeneteknél rendellenesség jelentkezett
+- Javítva lett egy probléma, amely miatt a lejátszás leállt bizonyos MOV fájlok keresésekor
+- Javítva lett egy probléma, amely hibás működést okozott az elforgatási adatokat tartalmazó miniatűr létrehozásakor
+
+----------------------------------------------------------
+[200908]
+----------------------------------------------------------
+- Javítva egy probléma, amely miatt a billentyűparancsok nem működtek bizonyos helyzetekben a fájl megnyitásakor
+- Javítva egy probléma, amely miatt lassan készültek el az indexképek
+- Továbbfejlesztett 3D/360 formátum kompatibilitás az mp4 fájloknál
+- Javítva egy probléma, amely miatt a Blu-ray mappa lejátszása nem indult el azonnal
+- Javítva bizonyos fájlok lejátszásakor jelentkező hiba
+- Szerkesztve a /seek, /sub parancs támogatás a videó gyorsbillentyűknél
+- Javítva egy villódzó hiba bizonyos feliratoknál
+- Javítva egy probléma, amely miatt a törlés nem volt megfelelő a könyvjelző szerkesztésben
+
+----------------------------------------------------------
+[200730]
+----------------------------------------------------------
++ Új funkció a főmenü parancsikonjainak működtetésére a lejátszási listában, könyvjelző szerkesztésben, felirat-böngészőben, stb.
++ Új funkció a felszínben megjelenített idő tükrözésére a lejátszási sebességnek megfelelően
++ Szűrőfunkció hozzáadása a könyvjelző szerkesztéshez
++ Új funkció a betűtípus átnevezésére csak ASS/SSA feliratstílus feldolgozásban
+
+- Javítva egy probléma, amely miatt a lejátszás nem lehetséges egy adott rendszer hibája miatt
+- Javítva egy probléma, amely miatt a feliratok ismétlődtek bizonyos feliratokban
+- Javítva egy probléma, amely miatt nem lehetett lejátszani bizonyos Dash/HTTP élő közvetítéseket
+- Javítva a 10 bites AV1 kódeknél jelentkező lassú lejátszási probléma
+- Javítva egy probléma, amely miatt a képernyő nem jelent meg bizonyos MP4 fájlok lejátszásakor
+- Javítva egy probléma, amely miatt bizonyos SSA/ASS feliratok furcsán jelentek meg
+
+----------------------------------------------------------
+[200616]
+----------------------------------------------------------
++ Új könyvjelzőlista és előző lejátszási lista megnyitás egy albumban funkció
++ Új "Főmenü keretméret" érték megjegyzési lehetőség funkció
++ Új késleltetési lehetőség a szakaszismétlés megismétlésekor
+
+- Javítva egy probléma, amely miatt nem lehetett bizonyos fájlokat lejátszani a SuperEQ használatával
+- Javítva egy probléma, amely miatt a megjelenítő adatait nem lehetett frissíteni a közvetítés közben
+- Javítva egy probléma, amely miatt az MP4 fájlok sérült fájlokként lettek lejátszva bizonyos helyzetekben
+- Továbbfejlesztett kisegítő lehetőségek kompatibilitás
+
+----------------------------------------------------------
+[200512]
+----------------------------------------------------------
++ Új Vulkan játékrögzítési mód
++ Új lehetőség a lejátszási idő <-> hátralévő idő váltására
++ Új lehetőség a feliratok parancssori funkcióba való megnyitására
++ Új lehetőség a szakaszismétlések számának beállítására
+
+- Javítva egy probléma, amely miatt az UWP ablak nem lett rögzítve az ablakválasztás rögzítésekor (Windows 10 1803 vagy újabb szükséges)
+- Javítva egy probléma, amely miatt a DirectDraw és a Direct3D8 nem működött a játékrögzítések során
+- Javított képernyőrögzítési teljesítmény
+- Javított hozzáférhetőségi kompatibilitás
+- Továbbfejlesztett FTP-kiszolgálói kapcsolat speciális karakterekkel
+- Javítva egy probléma, amely megjegyezte a teljes képernyős felvételt a képernyő rögzítésekor
+- Javítva egy probléma, amely szóközöket és feltételeket keresett a lejátszási listán/fájlnavigátoron belüli keresésnél
+
+----------------------------------------------------------
+[200317]
+----------------------------------------------------------
++ Új lehetőség a lejátszási listán lévő kijelölt elemek elérési útvonalának vágólapra másolására
++ Új lehetőség az elemek lejátszási listán belüli mozgatására
++ Új funkció a feliratletöltőben csak a megtalált feliratok hozzáadására az előnyben részesített nyelveken
+
+- Javítva egy probléma, amely miatt a telepítés lassan vagy lefagyva indult el bizonyos számítógépeken
+- Javítva egy hiba, amely miatt bizonyos WEBDAV kiszolgálókat nem lehetett csatlakoztatni
+- Javítva egy probléma, amely miatt nem lehetett listázni a fájlokat egyes FTP-kiszolgálókon
+- Javítva egy probléma, amely hibákat okozott bizonyos PNG fájlok megnyitásakor
+- Javítva egy hiba, amely miatt a navigációs sáv miniatűrjei nem jelentek meg megfelelően egyes MKV fájloknál
+- Javítva egy hiba, amely miatt bizonyos Blu-ray feliratok nem jöttek létre
+- Továbbfejlesztett dalszöveg kompatibilitás az MP3-ba építve
+
+----------------------------------------------------------
+[200204]
+----------------------------------------------------------
++ Keresési funkció hozzáadása a beállításokhoz
++ Új képesség a beágyazott feliratok figyelmen kívül hagyására
+
+- Egy adott webdav kiszolgálóhoz való csatlakozáskor jelentkező hiba javítása
+- Javítva egy hiba, amely miatt a külső könyvjelzők törlődtek a lejátszás bezárásakor
+- Továbbfejlesztett diavetítés megjelenítési mód
+- Javítva egy hiba, amely miatt bizonyos számítógépeken lassan indult el a lejátszás
+- Javítva egy hiba, amely miatt a betűtípusok eltérően jelentek meg egyes számítógépeken
+- Javítva egy hiba, amely rózsaszín megjelenést okozott az átfedéskeverő exkluzív képernyő módjának használatakor
+- Javítva egy hiba, amely miatt nem lehetett fájlokat lejátszani bizonyos FTP-kiszolgálókon
+
+----------------------------------------------------------
+[191211]
+----------------------------------------------------------
+* A program verziószámaként az aktuális dátum kerül felhasználásra
+
++ H/W HDR kimeneti mód hozzáadása a beépített D3D11 képmegjelenítőhöz
++ Javítva egy hiba, amely képernyő fagyást okozott a beépített D3D11 megjelenítő exkluzív képernyőkimenetének használatakor
++ Kurd fordítás
++ Új opció a rendszer alapértelmezett helyi menü sötét módjának engedélyezésére
++ Új MPC képmegjelenítő használati képesség
++ Yandex online fordítómotor támogatás
+
+- Javítva egy hiba, amely miatt bizonyos ASF/WMV fájlokat gyorsan játszott le az alkalmazás
+- Javítva egy hiba, amely miatt az utolsó elem nem törlődött a lejátszás kihagyások külső fájlba mentésekor
+- Javítva egy hiba, amely miatt a cím nem módosult az ASX lejátszási lista feldolgozása során
+- Javított DPI-Aware v2 művelet
+- Javítva egy hiba, amely miatt a monitor neve nem jelent meg a teljes képernyős beállításoknál
+- Javítva egy probléma, amely miatt a program hibásan működött, amikor a cue fájl több adathordozón lett megadva
+- Továbbfejlesztett 10-bites kimeneti feldolgozás
+- Javítva egy hiba, amely miatt bizonyos dvd ifo fájlok lejátszásakor nem jelent meg felirat
+- Javítva egy hiba, amely miatt a navigáció lassú volt bizonyos MKV fájlok esetében
+
+----------------------------------------------------------
+[1.7.20977]				        2019/10/31
+----------------------------------------------------------
++ Új képesség a feliratok elrejtésére, kivéve, ha az a kívánt nyelv
++ Új képesség a fejezetek megjelenítésére a lejátszási információkban
+
+- Bizonyos helyzetekben jelentkező hiba javítása
+- Javítva egy hiba, amely miatt hosszú ideig tartott a szövegfájlok olvasása
+- Javítva egy hiba, amely miatt nem lehet törölni megfelelően a kapcsolódó fájlokat lejátszása közben
+- Javítva egy hiba, amely miatt a megnyitási cím nem volt elemezhető
+- Javítva egy hiba, amely miatt furcsa színek jelentek meg bizonyos MOV fájlokban
+- Javítva egy hiba, amely miatt a Bluesky Frame Rate Converter nem működött
+- Javítva egy hiba, amely miatt bizonyos TS lejátszás nem ment végbe
+
+----------------------------------------------------------
+[1.7.20538]				        2019/09/19
+----------------------------------------------------------
+* Módosult az alapértelmezett HEVC dekóder a beépített FFmpeg HEVC H/W dekóderre
+
++ YTT felirat támogatás hozzáadása
++ Külső feliratfájl támogatás hozzáadása (.chapters.xml)
+
+- Javítva bizonyos TS fájlok lejátszásakor felmerülő probléma
+- Javítva egy hiba, amely miatt nem lehetett lejátszani bizonyos FLAC fájlokat
+- Javítva egy hiba, amely miatt a 2. felirat bizonyos YouTube videóknál jelent meg
+- Javítva egy hiba, amely miatt a cím az URL megnyitása mezőben nem tükröződik a lejátszási listában a kapcsolódó URL megnyitásakor
+- Javítva egy hiba, amely miatt a beállítások elvesznek a tárolási módok közötti váltáskor (INI <-> Registry)
+
+----------------------------------------------------------
+[1.7.19955]				        2019/07/31
+----------------------------------------------------------
++ VP4 kódek
++ Arab fordítás
++ Katalán fordítás
++ Videóterület háttérszín beállítási képesség
+
+- Javítva egy hiba, amely miatt a beágyazott feliratok bizonyos adatfolyamokban gyorsan eltűntek
+- Javítva egy hiba, amely miatt bizonyos helyzetekben túllépett a következő tartalmon a tvingTV lejátszásban
+
+----------------------------------------------------------
+[1.7.18958]				        2019/06/10
+----------------------------------------------------------
++ Új videó átméretezési lehetőség a kijelző felbontása szerint
+
+- Javítva egy hiba, amely pufferelést okozott a tvingTV lejátszásakor
+- Javítva egy hiba, amely miatt a videókép eltűnt bizonyos MPEG fájlok lejátszásakor
+- Javítva egy hiba, amely miatt bizonyos CUE fájlok helytelenül lettek elemezve
+- Javítva egy hiba, amely bizonyos esetekben a program összeomlását okozta a bitkép alapú feliratok megjelenítésekor
+- Javítva egy hiba, amely miatt a Logitech BRIO webkamera nem működött bizonyos helyzetekben
+- Javítva egy hiba, amely miatt nem volt hang bizonyos MP4-fájlok lejátszása közben
+- Javítva egy hiba, amely miatt a zéró méretű fájlok lejátszásának megkezdése hosszú időt vett igénybe
+- Továbbfejlesztett superEQ kezelés
+
+----------------------------------------------------------
+[1.7.18346]				        2019/04/19
+----------------------------------------------------------
+* Javítva egy hiba, amely miatt a webes lejátszás rendellenes volt a műsorszolgáltatás során
+
+----------------------------------------------------------
+[1.7.18344]				        2019/04/17
+----------------------------------------------------------
++ Kakao online fordítómotor támogatás (csak koreai felhasználók számára)
++ Egérkurzor támogatási képesség a játékrögzítésben
+
+- Javított keresési probléma bizonyos MKV fájloknál
+- Javítva egy hiba, amely miatt a lejátszási lista elemeit nem lehetett méret szerint rendezni
+- Javítva lett a TTML felirat karakterek figyelmen kívül hagyását okozó probléma
+- Javítva egy probléma, amely bizonyos esetekben a Fájl navigátor összeomlását okozta
+- Javítva egy probléma, amely a program belassulását okozta bizonyos fájlok lejátszásakor
+- Javítva egy probléma, amely a képernyő szakadozását okozta bizonyos H.264 fájlok lejátszásakor
+- Továbbfejlesztett AV1 dekódolási teljesítmény
+- Javítva bizonyos MP4 fájlok lejátszásakor jelentkező rendellenes viselkedés
+- Továbbfejlesztett ZIP/RAR tömörített fájl lejátszás
+
+----------------------------------------------------------
+[1.7.17508]				        2019/02/12
+----------------------------------------------------------
++ Bővítmény frissítési lehetőség hozzáadása
++ Felirat szerkesztési lehetőség hozzáadása a Feliratböngészőben
+
+- A módosított SMI feliratok mentése az eredeti megőrzéséhez, amennyire csak lehetséges
+- Bizonyos helyzetekben a D3D11 OSC mód használata esetén jelentkező rendellenes viselkedés javítása
+- Javítva egy hiba, amely miatt a Pot képernyőkímélőt nem lehetett kikapcsolni az egérrel
+- Módosítva a helyi menü alapértelmezett felszín opciója a felszínben meghatározott stílusra
+
+----------------------------------------------------------
+[1.7.16291]				        2018/12/12
+----------------------------------------------------------
++ Online felirat adatbázis fül hozzáadása a böngészőablakhoz
++ Új képesség a lejátszási sebesség változások megjegyzésére
+
+- Javítva egy hiba, amely megakadályozta a miniatűr képek létrehozását a Bluesky Frame Rate Converter használatakor
+- Javítva egy probléma, amely miatt az arány rendellenes volt elforgatáskor
+- Javítva egy probléma, amely miatt bizonyos MP4-fájlokat gyorsan játszott le
+- Továbbfejlesztett HTTP adatfolyam lejátszás
+- Javítva egy probléma, amely miatt bizonyos SSA/ASS feliratstílusok elemzése helytelen volt
+- Javítva egy probléma, amely miatt nem lehetett lejátszani a wmv/asf fájlokat bizonyos PC-ken
+- Javított felirat keresési funkció
+- Javított felszín betöltési sebesség
+- Javítva egy hiba, amely miatt nem lehetett lejátszani bizonyos mkv fájlokat
+- Javítva egy hiba, amely az időpontok helytelen kezelését okozta bizonyos SRT feliratfájloknál
+- Javítva az "Emlékezzen a lejátszási pozíciókra egy lejátszási listán belül" opció így az már az egyes lejátszási listákban egyedileg beállítható
+
+----------------------------------------------------------
+[1.7.14804]				        2018/10/16
+----------------------------------------------------------
++ Új képesség a képfeliratok feliratböngészőbe továbbítására
++ Új képesség az ablak címsorra helyezésére
++ Új av1 videó kódek dekódolási funkció
+
+- Továbbfejlesztett online felirat letöltés/feltöltés funkció
+- Javított online feliratozás-feldolgozás
+- Javítva egy probléma, amely miatt a flac fájl borítóképe nem jelent meg a zökkenőmentes lejátszás közben
+- Javítva egy hiba, amely miatt az új PotPlayer futott a lejátszási lista böngészőhöz adásakor
+- Javítva egy probléma, amely miatt nem lehetett menteni a beépített WASAPI hangleképező bizonyos beállításait
+- Javítva bizonyos fájlokban az MJPEG dekódolásakor jelentkező hiba
+- Javítva egy probléma, amely miatt bizonyos TS fájlok lejátszása közben nem volt hang
+- Javítva egy probléma, amely miatt nem lehetett lejátszani bizonyos AVI/OGG fájlokat
+- Javítva egy probléma, amely miatt az elforgatott monitoron nem volt egyenletes a lejátszás
+
+----------------------------------------------------------
+[1.7.13963]				        2018/08/29
+----------------------------------------------------------
+* Javítva egy biztonsági probléma (a sérült hangfájlok sérülékenységének kijavítása)
+
+- Javítva egy probléma, amely miatt a műsorszolgáltatási értesítések nem működtek bizonyos rendszereken
+- Javítva egy probléma, amely miatt egyes MP3 albumborítók nem jelentek meg
+- Javítva egy probléma, amely miatt a webm formátumot nem jött létre a videó rögzítésekor
+- Javítva egy hiba, amely miatt nem lehetett lejátszani bizonyos blu-ray médiákat
+- Javítva egy hiba, amely miatt bizonyos ogg fájlok borítói nem jelentek meg
+- Javítva egy probléma, amely miatt a borítókép nem jelent meg az összefüggő lejátszásnál
+- Javítva egy probléma, amely miatt a böngészés lassú volt az online feliratfordítás használatakor
+- Javítva egy probléma, amely miatt bizonyos TS-fájlok lejátszásakor nem jelent meg a képernyő
+- Javítva egy hiba, amely miatt a program kilépett, amikor bizonyos körülmények között megváltoztatta a videó felbontását
+- Javítva a beépített WASAPI audió renderelő hibája, és annak továbbfejlesztése
+
+----------------------------------------------------------
+[1.7.13622]				        2018/07/26
+----------------------------------------------------------
+- Javítva egy probléma, ahol egy plusz barát üzenetet nem lett elküldve a műsorszórás során
+
+----------------------------------------------------------
+[1.7.13621]				        2018/07/25
+----------------------------------------------------------
+* Új beépített felszín
+
++ Adás értesítési funkció hozzáadása
++ Sötét mód hozzáadása a csevegéshez
++ Új képesség a rövidített (SHN) hangfájl lejátszására
++ Új képesség a 16:9 lejátszási lista miniatűr megjelenítése
+
+- Jobb MPEG fájl hosszúság számítási kezelés
+- Javítva egy probléma, amely miatt nem lehet lejátszani bizonyos MPEG fájlokat
+- Továbbfejlesztett H264 DSC videórögzítés kezelés
+- Javított cue lejátszási feldolgozás
+- Javítva egy probléma, ahol a felirat navigáció nem működött megfelelően
+- Javítva egy probléma, amely miatt a képernyő összeomlott bizonyos WMV3 lejátszása közben
+- Javítva egy probléma, amely miatt a feliratok nem szinkronizálódtak megfelelően az FLV fájl lejátszásakor
+
+----------------------------------------------------------
 [1.7.12845]				        2018/06/29
 ----------------------------------------------------------
-- Fixed memory leak when playing http video
+- A http videó lejátszásakor jelentkező memória szivárgási hiba javítása
 
 ----------------------------------------------------------
 [1.7.12844]				        2018/06/25
 ----------------------------------------------------------
-+ Added CUBE/EAC to 360 VR playback format
-+ Added the ability to move to the parent folder with back button in playlist
++ CUBE/EAC hozzáadva a 360 VR lejátszási formátumhoz
++ Új funkció a lejátszási listában a szülőmappába helyezésre a vissza gomb segítségével
 
-- Fixed an issue where logout was not complete
-- Fixed a problem where sync error of 1-2 frames occurred in certain videos
-- Fixed an issue of ftp/http subtitle priority
-- Fixed a problem that causes the program to crash when recording flac audio
+- Javítva egy hiba, ami miatt nem sikerült kijelentkezni
+- Javítva egy hiba, amely miatt 1-2 képkocka szinkronizálási hiba történt bizonyos videókban
+- Javítva az ftp/http felirat prioritási probléma
+- Javítva egy hiba, amely a program összeomlását okozta a flac audió rögzítésekor
 
 ----------------------------------------------------------
 [1.7.12248]				        2018/05/24
 ----------------------------------------------------------
-* Fixed a security problem (remediation of damaged skin files vulnerability)
+* Javítva egy biztonsági probléma (a sérült felszínfájlok sérülékenységének kijavítása)
 
-+ Added PotPlayer extension with AngelScript
-  Added open address extension
-  Added media playlist/item extension
-  Added media source extension
-  Added online subtitle extension
-  Added online subtitle translation extension
-+ Added Crossfeed function into sound processing
-+ Added a function that did not close when selecting files in navigation
++ PotPlayer bővítmény hozzáadása AngelScript-tel
+  Nyílt cím kiterjesztés hozzáadása
+  Média lejátszási lista/elem bővítmény hozzáadása
+  Médiaforrás bővítmény hozzáadása
+  Online feliratbővítmény hozzáadása
+  Online felirat fordítási bővítmény hozzáadása
++ Crossfeed funkció hozzáadása a hangfeldolgozáshoz
++ Hozzáadva egy funkció, ami nem zárul be a fájlok navigáción belüli kiválasztásakor
 
-- Fixed a problem where random playback did not work properly when the number of items was large
-- Fixed a problem where ftp/webdav could not be opened at a specific URL
-- Fixed a problem that did not play a certain 60-frame video smoothly
-- Fixed an issue that played certain HTTP videos abnormally
+- Javítva egy hiba, ami miatt a véletlenszerű lejátszás nem működött megfelelően nagy számú elemek esetén
+- Javítva egy hiba, ami miatt az ftp/webdav nem nyitható meg egy adott URL-en
+- Javítva egy hiba, ami miatt nem sikerült lejátszani megfelelően bizonyos 60 képpontos videókat
+- Javítva lett egy hiba, amely miatt bizonyos HTTP videók lejátszása nem volt megfelelő
 
 ----------------------------------------------------------
 [1.7.10667]				        2018/04/04
 ----------------------------------------------------------
-+ Added the ability to play MP4 streams
++ MP4 online videólejátszási képesség hozzáadása
++ Indonéz fordítás hozzáadása
 
-- Improved seeking speed with Built-in HTTP Async Reader
-- Modified playlist handling to work asynchronously when possible
-- Fixed a problem where playback of AVI files did not work properly
-- Fixed an issue where codec-related settings were reset when switching presets
-- Fixed a problem that causes the program to crash when Built-in D3D11 Video Renderer is used in Windows 8
-- Fixed an issue where multiple color tags could not be read when subtitle time period is started from 0
-- Fixed a problem that prevents playback of certain fragmented MP4 files
+- Javított keresési sebesség a beépített HTTP Async olvasónál
+- Módosított lejátszási lista kezelés a lehetséges aszinkron módú működéshez
+- Javítva egy probléma, ahol az AVI fájlok lejátszása nem működött megfelelően
+- Javítva egy probléma, ami miatt a kódekhez kapcsolódó beállítások alaphelyzetbe álltak a sémák váltásakor
+- Javítva egy hiba, amely a program összeomlását okozta a beépített D3D11 videó megjelenítő használatakor Windows 8-on
+- Javítva egy hiba, ahol több színcímke nem volt olvasható, amikor a felirat időtartama 0-tól indult
+- Javítva a probléma, amely megakadályozta bizonyos töredezett MP4 fájlok lejátszását
 
 ----------------------------------------------------------
 [1.7.8557]			         	2018/02/08
 ----------------------------------------------------------
-- Fixed issues with ads
-- Fixed a problem that sometimes the video does not come out
+- Javított hirdetésekkel kapcsolatos problémák
+- Javítva lett egy probléma, amely miatt a videókép néha eltűnt
 
 ----------------------------------------------------------
 [1.7.8556]			         	2018/02/01
 ----------------------------------------------------------
-* Reorganization of chat design
+* Chat kialakítás újjátervezése 
 
-+ Added subtitle upload feature
-+ Added the ability to navigate current file subtitles in online database
-+ Added a function into When Playback Finished actions to stop autoplay when a playback is finished
-+ Added the ability to receive audio only during live broadcasting of KakaoTV
++ Felirat feltöltési funkció hozzáadva
++ AÚj képesség az aktuális fájl feliratok online adatbázisban történő navigálására
++ Új funkció az Amikor a lejátszás befejeződött műveleteken belül az automatikus lejátszás leállítására a lejátszás végén
++ Új képesség a KakaoTV élő közvetítése során történő hang fogadására
 
-- Fixed playback problem of certain SWF files
-- Fixed time parsing problem with SRT/VTT subtitles
-- Fixed a problem that no sound while playing certain TS files
-- Improved output speed of bitmap text renderer
-- Fixed an issue where the program was killed when playing HDTV in certain situations
+- Bizonyos SWF fájlok lejátszási problémájának javítása
+- Időelemzési probléma javítása a SRT/VTT feliratoknál
+- Javítva lett egy probléma, amely miatt bizonyos TS fájlok lejátszása közben nem volt hang
+- Javított bitképes szövegmegjelenítő kimeneti sebesség
+- Javítva egy probléma, amely miatt a program bizonyos helyzetekben leállt a HDTV lejátszásakor
+- Javítva az átlapolt feliratok kezelése a max/min megjelenítési időszakok feldolgozásánál
+
+----------------------------------------------------------
+[1.7.7150]				        2018/01/09
+----------------------------------------------------------
+* Időközi hirdetési probléma javítása a tvingTV lejátszásánál
+
+- Javított szinkronizálási probléma a Real Cook Audio-t tartalmazó fájloknál
+- Javítva lett egy probléma, amelynél a letölthető feliratok nem lettek automatikusan rendezve a preferált feliratnyelvek szerint
+- Javított keresési sebesség a TS fájloknál
 
 ----------------------------------------------------------
 [1.7.7145]				        2017/12/19
 ----------------------------------------------------------
-* Javítva egy biztonsági probléma (sérült ra, mkv, swf fájl sebezhetőségek javítása)
-* Élő hang bitarány akár 320K
+* Javítva egy biztonsági probléma (sérült ra, mkv, swf fájl sebezhetőségek kijavítása)
+* Megnövelt műsorszolgáltatási hang bitarány akár 320K
 
 + Új képesség a kijelölt elemek fájl navigátorban való megjelenítésére
 + Új könyvjelző lejátszólista létrehozási képesség
@@ -94,7 +415,7 @@ PotPlayer verzióelőzmények
 + Hangmagasság szabályzási funkció hozzáadása
 + Új képesség a kimeneti elemek csempeként való megjelenítésére a fájl navigátorban
 + Elem keresési funkció hozzáadása a fájl navigátorhoz
-+ Könyvjelző fájl lista elrejtési képesség
++ Könyvjelző fájllista elrejtési képesség
 
 - Javított lejátszási lista miniatűr kezelés
 
@@ -105,7 +426,7 @@ PotPlayer verzióelőzmények
 + Ablak hatás támogatás hozzáadása az alapértelmezett felszínben
 + Hozzáadott jelenetböngésző a fájl navigátorban
 + Új felirat szinkronizálási képesség az aktuális pozíció után
-+ Új képesség a többszörös méret korlátozására, ha a kép mérete nagyobb volt, mint a monitor
++ Új képesség a többszörös méret korlátozására, ha a kép mérete nagyobb volt, mint a monitoré
 + Új képesség a képernyő méretének monitor méretére igazítására
 + Új képesség a szintetikus egymás alatti kép megjelenítésére a 3D MVC dekódolásban
 

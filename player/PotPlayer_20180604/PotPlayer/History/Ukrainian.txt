@@ -2,6 +2,303 @@
 Історія версій PotPlayer
 
 ----------------------------------------------------------
+[210127]
+----------------------------------------------------------
+* Removed Flash playback function
+
++ Added Dutch translation
++ Added the ability to use skin visualization in windows media visualization
++ Added AV1 DXVA playback capability
+
+- Fixed a problem that could not play smoothly when playing certain MKV videos
+- Fixed a problem that time shift was working abnormally
+- Fixed a problem that no sound was produced when the system audio sampling rate setting was greater than 192kHz
+- Fixed a problem that image quality could not be switched when watching a broadcast with a password
+- Fixed an error in certain situations when editing a bookmark
+- Fixed a problem where SMI integrated subtitles could not be selected
+
+----------------------------------------------------------
+[201209]
+----------------------------------------------------------
++ Added the ability to change the context menu
++ Added AV1 CUDA/QuickSync decoder
++ Added pixel shader settings function to preferences
++ Added the ability to view the item names in the menu
+
+- Fixed a problem that sometimes malfunctioned when deleting a bookmark in bookmark editing
+- Improved custom menu output speed
+- Fixed the start of execution to work faster
+- Fixed a problem that no sound while playing certain mkv files
+
+----------------------------------------------------------
+[201021]
+----------------------------------------------------------
++ Added the ability to batch edit time in bookmark editing
+
+- Fixed a problem where color was abnormal when playing HDR HLG video
+- Fixed a problem where video capture screen was abnormal when using 10-bit output
+- Fixed a problem that CPU usage was high when using LayeredWindow skin
+- Fixed an issue that total time was recognized as 0 when playing a specific MKV file
+- Fixed a problem that bookmarks were duplicated in certain situations when deleting a bookmark
+- Fixed to keep line breaks as much as possible when translating subtitles
+- Fixed a problem where output of certain ASS/SSA subtitles was abnormal
+- Fixed an issue where playback stopped when searching for certain MOV files
+
+----------------------------------------------------------
+[200908]
+----------------------------------------------------------
+- Fixed a problem that shortcut keys did not work in certain situations when opening a file
+- Fixed a problem that was a little slow to create a thumbnail
+- Enhanced 3D/360 format compatibility in mp4 files
+- Fixed an issue where Blu-ray folder playback did not start immediately
+- Fixed an error when playing certain files
+- Edited to support /seek, /sub commands for video shortcuts
+- Fixed a flickering problem in certain subtitles
+- Fixed a problem where deletion was strange in bookmark editing
+
+----------------------------------------------------------
+[200730]
+----------------------------------------------------------
++ Added the ability to make shortcuts of main menu work in playlist, bookmark editing, subtitle browser, etc.
++ Added the ability to reflect the time displayed on skin according to playback speed
++ Added filter function into bookmark editing
++ Added the ability to rename font only in ASS/SSA subtitle style processing
+
+- Fixed an issue that could not play due to an error in a specific system
+- Fixed an issue where subtitles were duplicated in certain subtitles
+- Fixed an issue that did not play certain Dash/HTTP live streaming
+- Fixed a slow problem in playing with 10-bit AV1 codec
+
+----------------------------------------------------------
+[200616]
+----------------------------------------------------------
++ Added the ability to open a bookmark list and previous playlist in an album
++ Added the ability to remember the "Frame Size of Main Menu" values
++ Added the ability to delay when repeating in section repeat
+
+- Fixed an issue that cannot play certain files using SuperEQ
+- Fixed an issue where viewer information could not be updated when broadcasting
+- Fixed an issue where MP4 files were played as damaged files in certain situations
+- Improved accessibility compatibility
+
+----------------------------------------------------------
+[200512]
+----------------------------------------------------------
++ Added Vulkan capture into game capture
++ Added the ability to switch the playback time <-> remaining time
++ Added an option to open subtitles into command line function
++ Added the ability to set the number of repetitions of section repeat
+
+- Fixed a problem that UWP window was not captured when capturing the window selection (Requires Windows 10 1803 or newer)
+- Fixed an issue that DirectDraw and Direct3D8 did not work in game capture
+- Improved performance of Screen Capture
+- Improved accessibility compatibility
+- Improved FTP server connection with special characters
+- Fixed an issue that remembered full screen capture when capturing screen
+- Fixed an issue that searched for spaces and conditions when searching in Playlist/File Navigator
+
+----------------------------------------------------------
+[200317]
+----------------------------------------------------------
++ Added the ability to copy the path of the selected items to the playlist
++ Added the ability to move items to playlist
++ Added the ability to open the preferred language ​only ​in subtitle download
+
+- Fixed a problem where installation started slowly or freezed on certain PCs
+- Improved lyrics comprehension built into MP3
+- Fixed an issue that certain WEBDAV servers cannot be connected
+- Fixed an issue that certain FTP servers cannot list files
+- Fixed an issue that caused errors when opening certain PNG files
+- Fixed a problem where navigation bar thumbnails were incorrect in certain MKVs
+- Fixed a problem that certain Blu-ray subtitles did not come out
+
+----------------------------------------------------------
+[200204]
+----------------------------------------------------------
++ Added search feature into preferences
++ Added the ability not to load embedded subtitles
+
+- Fixed an error when accessing a specific webdav server
+- Fixed an issue where external bookmarks were deleted when you closed playback
+- Improved slideshow output
+- Fixed a problem that certain PCs started playing slowly
+- Fixed a problem where fonts were displayed differently on certain PCs
+- Fixed an issue that caused pink to appear when using the exclusive overlay mixer
+- Fixed a problem that can't play files on certain FTP servers
+
+----------------------------------------------------------
+[191211]
+----------------------------------------------------------
+* Changed the PotPlayer version to date
+
++ Added H/W HDR output function to Built-in D3D11 Renderer
++ Fixed an issue that stopped when exclusive screen output was used with the Built-in D3D11 Renderer
++ Added Kurdish translation
++ Added the ability to dim the output (dark mode) when using system menu
++ Added the ability to use MPC Video Renderer
++ Added Yandex subtitle translation
+
+- Fixed a problem that played fast when playing certain ASF/WMV files
+- Fixed an issue where the last item was not cleared when saving the playback skip to an external file
+- Fixed an issue where the title was not changed when processing ASX playlist
+- Fixed DPI-Aware v2 action
+- Fixed an issue where the monitor name didn't appear in full screen settings
+- Fixed an issue that malfunctioned when cue file was specified in multiple media
+- Improved 10-bit output processing
+- Fixed an issue where no subtitles appeared when playing certain dvd ifo files
+- Fixed an issue that navigated certain MKV files slowly
+
+----------------------------------------------------------
+[1.7.20975]				        2019/10/31
+----------------------------------------------------------
++ Added the ability to hide subtitles unless it's your preferred language
++ Added the ability to display chapters in playback information
+
+- Fixed an error in certain situations
+- Fixed an issue that took a long time to read text files
+- Fixed an issue that cannot delete related files when playing seamlessly
+- Fixed an issue where opening address was not parsed
+- Fixed an issue where strange colors appeared in certain MOV files
+- Fixed an issue where Bluesky Frame Rate Converter did not work
+- Fixed an error when certain TS playbacks were finished
+
+----------------------------------------------------------
+[1.7.20538]				        2019/09/19
+----------------------------------------------------------
+* Changed default HEVC decoder to Built-in FFmpeg HEVC H/W Decoder
+
++ Added support for YTT subtitles
++ Added support for external chapters files (.chapters.xml)
+
+- Fixed a problem that occurs when playing certain TS files
+- Fixed a problem that can't play certain FLAC files
+- Fixed a problem that 2nd subtitles were appeared with certain YouTube videos
+- Fixed an issue where the title in the Open URL box was not reflected into playlist when attempt to open the related URL
+- Fixed a problem where settings are lost when switching between storing modes (INI <-> Registry)
+
+----------------------------------------------------------
+[1.7.19955]				        2019/07/31
+----------------------------------------------------------
++ Added VP4 codec
++ Added Arabic translation
++ Added the ability to set the background color of the video area
+
+- Fixed an issue where embedded subtitles in certain streams were disappeared quickly
+- Fixed an issue that went beyond the next content in tvingTV playback in certain situations
+
+----------------------------------------------------------
+[1.7.18958]				        2019/06/10
+----------------------------------------------------------
++ Added the ability to resize video according to display resolution
+
+- Fixed a problem that causes buffering when playing tvingTV
+- Fixed a problem that causes the video image to disappear when playing certain MPEG files
+- Fixed a problem where certain CUE files were incorrectly parsed
+- Fixed a problem that causes the program to crash when rendering bitmap-based subtitles in certain situations
+- Fixed a problem where Logitech BRIO webcam did not work in certain situations
+- Fixed a problem that no sound while playing certain MP4 files
+- Fixed an issue that starting playback takes a long time with files that have zero size
+- Improved handling of superEQ
+
+----------------------------------------------------------
+[1.7.18346]				        2019/04/19
+----------------------------------------------------------
++ Added the ability to include mouse cursor in Game Capture
+
+- Fixed seeking problem with certain MKV files
+- Fixed an issue where playlist items could not be sorted by size
+- Fixed an issue that causes TTML subtitle characters to be ignored
+- Fixed an issue that causes File Navigator to crash in certain situations
+- Fixed a problem that causes the program to run slowly with playback of certain files
+- Fixed a problem that causes screen to broken when playing certain H.264 files
+- Improved AV1 decoding performance
+- Fixed an abnormal behavior when playing certain MP4 files
+- Improved ZIP/RAR playback
+
+----------------------------------------------------------
+[1.7.17508]				        2019/02/12
+----------------------------------------------------------
++ Added the ability to update extensions
++ Added the ability to edit subtitles in Subtitle Browser
+
+- Modified saving of SMI subtitles to keep the original as much as possible
+- Fixed an abnormal behavior when using D3D11 OSC mode in certain situations
+- Fixed an issue where the PotScreenSaver could not be turned off with mouse
+- Changed default skin option of context menu to style defined in skin
+
+----------------------------------------------------------
+[1.7.16291]				        2018/12/12
+----------------------------------------------------------
++ Added online subtitles database tab into browser window
++ Added the ability to keep playback speed changes
+
+- Fixed an issue that prevents to create thumbnail image when Bluesky Frame Rate Converter is used
+- Fixed an issue that aspect ratio was abnormal when rotate function is used
+- Fixed a problem where some MP4 files were playing fast
+- Improved playback of HTTP streams
+- Fixed a problem where styles in certain SSA/ASS subtitle files was incorrectly parsed
+- Fixed a problem that can not play WMV/ASF files on certain PCs
+- Improved subtitle searching to match the video
+- Improved speed of loading skin files
+- Fixed a problem that occurs when playing certain MKV files
+- Fixed an issue where times in certain SRT subtitle files was incorrectly handled
+- Improved the option "remember playback positions within a playlist" so that it can be set individually in each playlist
+
+----------------------------------------------------------
+[1.7.14804]				        2018/10/16
+----------------------------------------------------------
++ Added the ability to output image subtitles to subtitle browser
++ Added the ability to move window only on the title bar
++ Added av1 video codec decoding function
+
+- Improved online subtitle download/upload function
+- Improved online subtitle translation processing
+- Fixed a problem where cover image of flac file was not shown when playing seamlessly
+- Fixed an issue where new PotPlayer was running when adding a playlist to browser
+- Fixed an issue that can't save some settings of the built-in WASAPI audio renderer
+- Fixed an error when decoding MJPEG in certain files
+- Fixed a problem that no sound while playing certain TS files
+- Fixed an issue that can't play certain AVI/OGG files
+- Fixed an issue where playback on the rotated monitor was not smooth
+
+----------------------------------------------------------
+[1.7.13963]				        2018/08/29
+----------------------------------------------------------
+* Fixed a security problem (remediation of damaged audio files playback vulnerability)
+
+- Fixed a problem where broadcast notification did not work in certain systems
+- Fixed a problem where album arts of certain MP3 were not shown
+- Fixed a problem where webm format was not created when capturing video
+- Fixed an issue that can't play certain blu-ray media
+- Fixed an issue where cover images of certain ogg files were not shown
+- Fixed a problem where cover image was not shown when playing seamlessly
+- Fixed a problem that browsed slowly when using online subtitle translation
+- Fixed a problem that screen did not come out when playing certain TS files
+- Fixed an issue where the program was killed when changing the video resolution under certain conditions
+- Fixed a bug of the built-in WASAPI audio renderer and improved it
+
+----------------------------------------------------------
+[1.7.13622]				        2018/07/26
+----------------------------------------------------------
+- Fixed a problem where a plus friend message was not sent when broadcasting
+
+----------------------------------------------------------
+[1.7.13621]				        2018/07/25
+----------------------------------------------------------
+* New Built-in skin
+
++ Added Dark mode to chat
++ Added the ability to play shorten (SHN) audio file
+
+- Improved handling in length calculation of MPEG file
+- Fixed an issue that can't play certain MPEG files
+- Improved H264 DSC handling of video capture
+- Improved cue playback processing
+- Fixed a problem where subtitle navigation did not work properly
+- Fixed a problem that screen was broken when playing certain WMV3
+- Fixed a problem where subtitles did not synchronize finely when playing FLV file
+
+----------------------------------------------------------
 [1.7.12845]				        2018/06/29
 ----------------------------------------------------------
 - Fixed memory leak when playing http video

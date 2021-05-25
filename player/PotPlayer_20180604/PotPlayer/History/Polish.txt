@@ -2,9 +2,318 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[210127]
+----------------------------------------------------------
+* Usunięto funkcję odtwarzania Flash
+* Usunięto funkcję powiadamiania o rozpoczęciu transmisji ulubionych kanałów
+
++ Dodano język holenderski
++ Dodano możliwość użycia wizualizacji skórki w wizualizacji Windows Media
++ Dodano możliwość odtwarzania AV1 DXVA
+
+- Naprawiono problem z brakiem płynnego odtwarzania podczas odtwarzania niektórych plików wideo MKV
+- Naprawiono problem z nieprawidłowym działaniem przesunięcia czasowego
+- Naprawiono problem z generowaniem dźwięku, gdy systemowa częstotliwość próbkowania była ustawiona na wyższą niż 192 kHz
+- Naprawiono problem z brakiem możliwości przełączania jakości wideo podczas oglądania transmisji zabezpieczonej hasłem
+- Naprawiono błąd występujący w niektórych sytuacjach podczas edycji zakładek
+- Naprawiono problem z brakiem możliwości wyboru zintegrowanych napisów SMI
+
+----------------------------------------------------------
+[201209]
+----------------------------------------------------------
++ Dodano możliwość dostosowania menu kontekstowego
++ Dodano obsługę kodeka AV1 do dekodera wideo CUDA/QuickSync
++ Dodano do preferencji zakładkę z ustawieniami Pixel Shader
++ Dodano możliwość przeglądania elementów menu kontekstowego skórki z ich identyfikatorami CmdID
+
+- Naprawiono problem powodujący nieprawidłowe działanie przy usuwaniu zakładki w edytorze zakładek
+- Poprawiono szybkość drukowania menu niestandardowego
+- Wprowadzono poprawki przyspieszające uruchamianie
+- Naprawiono problem z brakiem dźwięku podczas odtwarzania niektórych plików MKV
+
+----------------------------------------------------------
+[201021]
+----------------------------------------------------------
++ Dodano możliwość zbiorczej edycji czasu podczas edycji zakładek
+
+- Naprawiono problem powodujący, że kolory były nieprawidłowe podczas odtwarzania wideo HDR HLG
+- Naprawiono problem powodujący, że ekran przechwytywania wideo był nieprawidłowy podczas korzystania z 10-bitowego wyjścia
+- Naprawiono problem z wysokim obciążeniem procesora podczas używania skórki LayeredWindow
+- Naprawiono problem polegający na tym, że cały czas był rozpoznawany jako 0 podczas odtwarzania określonego pliku MKV
+- Naprawiono problem powodujący duplikowanie zakładek w niektórych sytuacjach podczas usuwania zakładek
+- Wprowadzono modyfikację powodującą, że podczas tłumaczenia napisów zachowywane jest jak najwięcej podziałów wierszy
+- Naprawiono problem powodujący, że wyświetlanie niektórych napisów ASS/SSA było nieprawidłowe
+- Naprawiono błąd powodujący zatrzymanie odtwarzania podczas przeszukiwania niektórych plików MOV
+- Naprawiono problem powodujący nieprawidłowe działanie podczas tworzenia miniatury z informacjami o obrocie
+
+----------------------------------------------------------
+[200908]
+----------------------------------------------------------
+- Naprawiono problem polegający na tym, że klawisze skrótów nie działały w niektórych sytuacjach podczas otwierania pliku
+- Naprawiono problem, który powodował zbyt wolne tworzenie miniatur
+- Zwiększono zgodność z formatem 3D/360 w plikach MP4
+- Naprawiono problem powodujący, że odtwarzanie folderu Blu-ray nie rozpoczynało się od razu
+- Naprawiono błąd występujący podczas odtwarzania niektórych plików
+- Zmodyfikowano obsługę poleceń /seek, /sub dla skrótów wideo
+- Naprawiono problem z migotaniem w niektórych napisach
+- Naprawiono problem z nietypowym usuwaniem podczas edycji zakładek
+
+----------------------------------------------------------
+[200730]
+----------------------------------------------------------
++ Dodano możliwość robienia skrótów do menu głównego w liście odtwarzania, edycji zakładek, przeglądarce napisów, itp.
++ Dodano funkcję odzwierciedlania czasu wyświetlanego na skórce w zależności od prędkości odtwarzania
++ Dodano funkcję filtrowania do edycji zakładek
++ Dodano możliwość zmiany nazwy czcionki tylko w przypadku przetwarzania stylów napisów ASS/SSA
+
+- Naprawiono problem powodujący brak możliwości odtwarzania z powodu błędu w określonym systemie
+- Naprawiono problem z duplikowaniem napisów w niektórych napisach
+- Naprawiono problem powodujący, że niektóre transmisje strumieniowe live Dash/HTTP nie były odtwarzane
+- Naprawiono problem z powolnym odtwarzaniem 10-bitowego kodeka AV1
+- Naprawiono problem powodujący nie pojawianie się ekranu podczas odtwarzania niektórych plików MP4
+- Naprawiono problem z dziwnym wyświetlaniem niektórych napisów SSA/ASS
+
+----------------------------------------------------------
+[200616]
+----------------------------------------------------------
++ Dodano możliwość otwierania listy zakładek i poprzednich list odtwarzania w albumie
++ Dodano funkcję zapamiętywania wartości Rozmiar & Pozycja klatki wideo
++ Dodano funkcję opóźnienia przy powtarzaniu przedziału
+
+- Naprawiono problem powodujący, że SuperEQ nie mógł być używany podczas odtwarzania niektórych plików
+- Naprawiono problem powodujący, że informacje o oglądających nie mogły być aktualizowane podczas broadcast
+- Naprawiono problem powodujący, że w niektórych sytuacjach pliki MP4 były odtwarzane jako uszkodzone
+- Poprawiono zgodność w zakresie dostępności
+
+----------------------------------------------------------
+[200512]
+----------------------------------------------------------
++ Dodano Vulkan Capture do przechwytywania gier
++ Dodano możliwość przełączania czasu odtwarzania <-> czas, który pozostał
++ Dodano możliwość otwierania napisów w funkcji wiersza polecenia
++ Dodano możliwość ustawienia liczby powtórzeń dla przedziałów powtarzania
+
+- Naprawiono problem powodujący, że okno UWP nie jest przechwytywane po wybraniu okna przechwytywania (wymagany Windows 10 1803 lub nowszy).
+- Naprawiono problem powodujący, że DirectDraw i Direct3D8 nie działały w przechwytywaniu gier
+- Poprawiono wydajność przechwytywania obrazu
+- Zwiększono zgodność w zakresie dostępności
+- Ulepszono połączenie z serwerem FTP za pomocą znaków specjalnych
+- Naprawiono problem z zapamiętywaniem pełnego ekranu podczas przechwytywania ekranu
+- Zastosowano poprawki do wyszukiwania spacji dla warunków AND podczas wyszukiwania w Liście odtwarzania/Menedżerze plików
+
+----------------------------------------------------------
+[200317]
+----------------------------------------------------------
++ Dodano możliwość skopiowania ścieżki wybranych elementów do listy odtwarzania
++ Dodano możliwość przenoszenia elementów do listy odtwarzania
++ Dodano możliwość otwierania napisów tylko w preferowanym języku podczas pobierania napisów
+
+- Rozwiązano problem polegający na tym, że na niektórych PC rozpoczęcie instalacji było powolne lub zatrzymane
+- Naprawiono problem braku połączenia z niektórymi serwerami WEBDAV
+- Naprawiono problem powodujący brak możliwości pobrania listy plików z określonego serwera FTP
+- Naprawiono problem powodujący błąd podczas otwierania niektórych plików PNG
+- Naprawiono problem powodujący, że miniatury na pasku nawigacyjnym były nieprawidłowe w niektórych plikach MKV
+- Naprawiono problem powodujący, że niektóre napisy Blu-ray nie były wyświetlane
+- Poprawiono kompatybilność tekstów osadzonych w plikach MP3
+
+----------------------------------------------------------
+[200204]
+----------------------------------------------------------
++ Dodano do preferencji funkcję wyszukiwania
++ Dodano możliwość nie wczytywania osadzonych napisów
+
+- Naprawiono problem powodujący błąd podczas uzyskiwania dostępu do określonego serwera WebDav
+- Naprawiono problem powodujący usuwanie zewnętrznych zakładek podczas zamykania po rozpoczęciu odtwarzania
+- Ulepszono wyjście wizualizacji obrazów (albumów)
+- Naprawiono problem powodujący, że niektóre PC zaczynały odtwarzać w zwolnionym tempie
+- Naprawiono problem powodujący, że na niektórych PC czcionki są wyświetlane w odmienny sposób
+- Naprawiono problem powodujący pojawianie się koloru różowego podczas używania Overlay Mixer w trybie wyłączności
+- Naprawiono problem powodujący, że niektóre pliki z serwera FTP nie mogły być odtwarzane
+
+----------------------------------------------------------
+[191211]
+----------------------------------------------------------
+* Zmieniono używany do tej pory zapis wersji odtwarzacza
+
++ Dodano funkcję wyjścia H/W HDR do wbudowanego renderera D3D11
++ Naprawiono problem powodujący brak możliwości używania trybu wyłączości ekranu na wyjściu wbudowanego dekodera D3D11
++ Dodano język kurdyjski
++ Dodano możliwość wyświetlania ciemnego tła podczas korzystania z menu systemowego (tryb ciemny)
++ Dodano możliwość korzystania z MPC Video Renderer
++ Dodano możliwość tłumaczenia napisów online z Yandex 
+						
+- Naprawiono problem powodujący przyspieszone odtwarzanie niektórych plików ASF/WMV
+- Naprawiono problem powodujący, że ostatnia pozycja nie była usuwana podczas zapisywania pomijania odtwarzania do pliku zewnętrznego
+- Naprawiono problem powodujący, że tytuł nie był zmieniany podczas przetwarzania listy odtwarzania ASX
+- Przystosowano odtwarzacz do pracy z DPI-Aware v2
+- Naprawiono problem powodujący, że nazwa monitora nie pojawiała się w ustawieniach pełnego ekranu
+- Naprawiono problem powodujący nieprawidłowe działanie, gdy w pliku CUE podano wiele mediów
+- Ulepszono przetwarzanie wyjścia 10-bitowego
+- Naprawiono problem powodujący, że napisy nie były wyświetlane podczas odtwarzania niektórych plików ifo DVD
+- Naprawiono problem powodujący powolne przeglądanie niektórych plików MKV
+
+----------------------------------------------------------
+[1.7.20977]				        2019/10/31
+----------------------------------------------------------
++ Dodano możliwość ukrywania napisów, jeśli nie są w preferowanym języku
++ Dodano możliwość wyświetlania rozdziałów w informacjach o odtwarzaniu
+
+- Naprawiono problem z pojawieniem się błędu w niektórych sytuacjach
+- Naprawiono problem ze zbyt długim odczytywaniem plików tekstowych
+- Naprawiono błąd powodujący, że nie mogły zostać usunięte pliki powiązane podczas płynnego odtwarzania
+- Naprawiono błąd powodujący, że otwierany adres nie był przetwarzany
+- Naprawiono błąd powodujący pojawianie się dziwnych kolorów w niektórych plikach MOV
+- Naprawiono błąd powodujący, że nie działał Bluesky Frame Rate Converter
+- Naprawiono problem powodujący błąd na końcu odtwarzania w niektórych plikach TS
+
+----------------------------------------------------------
+[1.7.20538]				        2019/09/19
+----------------------------------------------------------
+* Zmieniono wstępnie ustawiony dekoder HEVC na dekoder H/W (wyłączono wbudowany dekoder FFmpeg HEVC S/W)
+
++ Dodano obsługę napisów YTT
++ Dodano obsługę zewnętrznych plików rozdziałów (.chapters.xml)
+
+- Naprawiono problem występujący podczas odtwarzania niektórych plików TS
+- Naprawiono problem powodujący brak możliwości odtwarzania niektórych plików FLAC
+- Naprawiono problem powodujący pojawianie się drugich napisów podczas odtwarzania niektórych klipów z YouTube
+- Naprawiono problem powodujący, że tytuł w polu Otwórz adres URL nie był odzwierciedlany na liście odtwarzania przy próbie otwarcia powiązanego adresu URL
+- Naprawiono problem powodujący utratę ustawień podczas przełączania między trybami przechowywania (INI <-> Rejestr)
+
+----------------------------------------------------------
+[1.7.19955]				        2019/07/31
+----------------------------------------------------------
++ Dodano kodek VP4
++ Dodano język arabski
++ Dodano język kataloński
++ Dodano możliwość zmiany koloru tła w obszarze wideo
+
+- Naprawiono błąd powodujący, że osadzone napisy w niektórych strumieniach szybko znikały
+- Naprawiono błąd polegający na pomijaniu kanałów w niektórych przypadkach podczas odtwarzania tvingTV
+
+----------------------------------------------------------
+[1.7.18958]				        2019/06/10
+----------------------------------------------------------
++ Dodano możliwość dostosowania rozmiaru obrazu do rozmiaru monitora
+
+- Naprawiono problem powodujący buforowanie podczas odtwarzania tvingTV
+- Naprawiono problem powodujący nie pojawianie się obrazu podczas odtwarzania niektórych plików MPEG
+- Naprawiono problem z nieprawidłowym parsowaniem niektórych plików CUE
+- Naprawiono problem powodujący w określonych sytuacjach zamrażanie odtwarzacza podczas renderowania napisów opartych na bitmapach
+- Naprawiono problem powodujący w określonych sytuacjach brak działania kamery internetowej Logitech BRIO
+- Naprawiono problem powodujący brak dźwięku podczas odtwarzania niektórych plików MP4
+- Naprawiono problem powodujący, że odtwarzanie plików o zerowym rozmiarze zajmowało dużo czasu
+- Ulepszono obsługę superEQ
+
+----------------------------------------------------------
+[1.7.18346]				        2019/04/19
+----------------------------------------------------------
+* Naprawiono problem powodujący nieprawidłowe odtwarzanie w sieci podczas broadcast
+
+----------------------------------------------------------
+[1.7.18344]				        2019/04/17
+----------------------------------------------------------
++ Dodano do funkcji przechwytywania gier możliwość przechwytywania kursora myszki
+
+- Naprawiono problem z przeszukiwaniem niektórych plików MKV
+- Naprawiono problem powodujący brak możliwości sortowania elementów listy odtwarzania według rozmiaru
+- Naprawiono problem powodujący ignorowanie znaków w napisach TTML
+- Naprawiono problem powodujący w określonych sytuacjach zamrażanie Nawigatora po plikach
+- Naprawiono problem powodujący wolne działanie programu podczas odtworzania niektórych plików
+- Naprawiono problem powodujący brak obrazu podczas odtwarzania niektórych plików wideo H.264
+- Poprawiono wydajność dekodowania AV1
+- Naprawiono nieprawidłowe działanie podczas odtwarzania niektórych plików MP4
+- Ulepszono odtwarzanie archiwów ZIP/RAR
+
+----------------------------------------------------------
+[1.7.17508]				        2019/02/12
+----------------------------------------------------------
++ Dodano możliwość aktualizacji rozszerzeń
++ Dodano do Przeglądarki napisów funkcję edycji napisów
+
+- Zmodyfikowano zapisywanie napisów SMI, aby w jak największym stopniu zachować oryginał 
+- Naprawiono nieprawidłowe zachowanie podczas korzystania z trybu OSC D3D11 w pewnych sytuacjach
+- Naprawiono błąd, przez który nie można było wyłączyć PotScreenSaver myszką
+- Zmieniono domyślny styl menu podręcznego na styl zdefiniowany w skórce
+
+----------------------------------------------------------
+[1.7.16291]				        2018/12/12
+----------------------------------------------------------
++ Dodano zakładkę bazy danych napisów online do okna przeglądarki
++ Dodano możliwość zapamiętywania szybkości odtwarzania
+
+- Naprawiono problem, który uniemożliwiał tworzenie miniatur podczas używania Bluesky Frame Rate Converter
+- Naprawiono problem z nieprawidłowym współczynnikiem proporcji podczas używania funkcji obracania obrazu
+- Naprawiono problem z szybkim odtwarzaniem niektórych plików MP4
+- Ulepszono odtwarzanie strumieni z HTTP
+- Naprawiono problem z nieprawidłowym przetwarzaniem niektórych stylów w napisach SSA/ASS
+- Naprawiono problem powodujący brak odtwarzania plików WMV/ASF na niektórych PC
+- Ulepszono wyszukiwanie napisów dopasowanych do wideo
+- Poprawiono szybkość wczytywania skórki
+- Naprawiono błąd występujący podczas odtwarzania niektórych plików MKV
+- Naprawiono błąd powodujący nieprawidłowe przetwarzanie czasów w niektórych napisach SRT
+- Ulepszono opcję "Zapamiętaj pozycje odtwarzania na liście odtwarzania", aby można było ustawić ją indywidualnie na każdej liście odtwarzania
+
+----------------------------------------------------------
+[1.7.14804]				        2018/10/16
+----------------------------------------------------------
++ Dodano obsługę napisów opartych na bitmapach w przeglądarce napisów
++ Dodano możliwość przesuwania okna odtwarzacza tylko za pomocą paska tytułu
++ Dodano możliwość dekodowania kodeka AV1 Video (AOMedia Video 1) 
+
+- Ulepszono funkcje pobierania/wysyłania napisów online
+- Ulepszono funkcję tłumaczenia napisów online
+- Naprawiono problem uniemożliwiający wyświetlanie obrazów album art/cover w plikach FLAC podczas używania funkcji płynnego odtwarzania
+- Naprawiono błąd powodujący uruchomienie nowej kopii programu po dodaniu pliku do listy odtwarzania z Eksploratora Windows
+- Naprawiono problem z zapisywaniem niektórych ustawień zintegrowanego renderera audio WASAPI
+- Naprawiono problem występujący przy dekodowaniu plików MJPEG
+- Naprawiono problem z brakiem dźwięku podczas odtwarzania niektórych plików TS
+- Naprawiono problem uniemożliwiający odtwarzanie niektórych plików AVI/OGG
+- Naprawiono błąd, przez który odtwarzanie na obrotowym monitorze nie było płynne
+
+----------------------------------------------------------
+[1.7.13963]				        2018/08/29
+----------------------------------------------------------
+* Poprawka bezpieczeństwa (uszkodzony plik dźwiękowy podatny na zagrożenie)
+
+- Naprawiono problem powodujący, że ostrzeżenia nadawane podczas broadcast nie działały w niektórych systemach
+- Naprawiono problem polegający na tym, że okładki niektórych plików MP3 nie były wyświetlane
+- Naprawiono problem powodujący, że nie był tworzony format WEBM podczas przechwytywania wideo
+- Naprawiono problem uniemożliwiający odtwarzanie niektórych nośników Blu-ray
+- Naprawiono problem polegający na tym, że okładki niektórych plików OGG nie były wyświetlane
+- Naprawiono problem polegający na tym, że okładki podczas płynnego odtwarzania nie były wyświetlane
+- Naprawiono problem z powolnym przeglądaniem podczas korzystania z tłumaczenia napisów online
+- Naprawiono problem powodujący, że ekran nie pojawiał się podczas odtwarzania niektórych plików TS
+- Naprawiono błąd, w wyniku którego proces programu był w pewnych warunkach zabijany przy zmianie rozdzielczości
+- Naprawiono błędy i wprowadzono ulepszenia zintegrowanego renderera audio WASAPI
+
+----------------------------------------------------------
+[1.7.13622]				        2018/07/26
+----------------------------------------------------------
+- Naprawiono problem z wysyłaniem wiadomości podczas broadcast
+
+----------------------------------------------------------
+[1.7.13621]				        2018/07/25
+----------------------------------------------------------
+* Nowa wbudowana skórka
+
++ Dodano funkcję powiadamiania o broadcast
++ Dodano tryb ciemny do czatu
++ Dodano możliwość odtwarzania plików audio shorten (SHN)
++ Dodano możliwość wyświetlania miniatur w proporcjach 16:9 w liście odtwarzania/Nawigatorze
+
+- Ulepszono obsługę obliczania długości pliku MPEG
+- Naprawiono problem powodujący brak odtwarzania niektórych plików MPEG
+- Ulepszono obsługę H264 DSC podczas przechwytywania wideo
+- Ulepszono przetwarzanie odtwarzanie CUE
+- Naprawiono problem z nieprawidłowym działaniem otwierania prostych napisów
+- Naprawiono problem z rozbijaniem ekranu podczas odtwarzania niektórych WMV3
+- Naprawiono problem z brakiem synchronizacji napisów podczas odtwarzania plików FLV
+
+----------------------------------------------------------
 [1.7.12845]				        2018/06/29
 ----------------------------------------------------------
-- Fixed memory leak when playing http video
+- Naprawiono wyciek pamięci podczas odtwarzania wideo http
 
 ----------------------------------------------------------
 [1.7.12844]				        2018/06/25
@@ -15,7 +324,7 @@ Historia wersji PotPlayer
 - Naprawiono błąd powodujący, że wylogowanie nie było zakończone
 - Naprawiono problem z błędną synchronizacją 1-2 klatek w niektórych wideo
 - Naprawiono problem z priorytetem napisów ftp/http
-- Naprawiono problem z odtwarzaniem podczas przechwytywania audio do flac
+- Naprawiono problem powodujący awarię programu podczas nagrywania audio flac
 
 ----------------------------------------------------------
 [1.7.12248]				        2018/05/24
